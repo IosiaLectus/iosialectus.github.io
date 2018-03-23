@@ -13,3 +13,5 @@
 *.fls
 *.lb
 *.fdb_latexmk
+
+mathematica\*
