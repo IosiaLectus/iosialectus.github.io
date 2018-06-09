@@ -1,3 +1,17 @@
 _site
 .sass-cache
 .jekyll-metadata
+
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+*.sty
+
+*.fls
+*.lb
+*.fdb_latexmk
+
+*.zip
