@@ -6,14 +6,17 @@
 
     <h2 class="footer-heading">{{ site.title | escape }}</h2>
 
-        {% if site.github %}
-        {% include icon-github.html username=site.github %}
-        {% endif %}
         {% if site.linkedin %}
         {% include icon-linkedin.html username=site.linkedin %}
         {% endif %}
         {% if site.inspirehep %}
         {% include icon-inspire.html username=site.inspirehep %}
+        {% endif %}
+	{% if site.github %}
+        {% include icon-github.html username=site.github %}
+        {% endif %}
+	{% if site.research_gate %}
+        {% include icon-research_gate.html username=site.research_gate %}
         {% endif %}
 
   </div>
