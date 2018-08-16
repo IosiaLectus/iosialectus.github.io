@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-name: Josiah Couch
-#title: Your awesome title
+#name: Josiah Couch
+title: Josiah Couch
 #email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Josiah Couch's amazing site
+#description: >- # this means to ignore newlines until "baseurl:"
+#  Josiah Couch
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 company_website: 
@@ -29,7 +29,7 @@ instagram: iosialectus
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
