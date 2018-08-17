@@ -1,4 +1,6 @@
 
+<hr/>
+
 <header class="site-header" role="banner">
 
   <div class="wrapper">
@@ -12,7 +14,7 @@
           {% for path in page_paths %}
             {% assign my_page = site.pages | where: "path", path | first %}
             {% if my_page.title %}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            <a class="page-link" href="{{ my_page.url | relative_url }}"> &ensp; {{ my_page.title | escape }}</a>
             {% endif %}
           {% endfor %}
         </div>
@@ -21,8 +23,10 @@
   </div>
 </header>
 
+<hr/>
 
 <header class="page-header" role="banner">
   <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
   <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 </header>
+
