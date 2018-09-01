@@ -1,0 +1,181 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{Josiah Couch}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {physics, mathematics, AdS/CFT, holographic complexity},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+  \href{}{University of Texas at Austin} \\
+  Department of Physics \\
+  2515 Speedway, C1600 \\
+  Austin, TX 78712-1192
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Email: & \href{mailto:josiah.couch@utexas.edu}{\tt josiah.couch@utexas.edu} \\
+    Website: & josiahcouch.com \\
+    LinkedIn: & https://www.linkedin.com/in/josiah-couch/
+  \end{tabular}
+\end{minipage}
+\
+
+\section*{Education}
+
+\begin{itemize}
+
+\item Ph.D. Physics, University of Texas at Austin, \hfill  May 2019 (expected).\\
+  Thesis advisor: Prof. Willy Fischler\\
+  GPA: 3.68
+  
+  
+  \item B.S. Physics and B.S. Mathematics, Oklahoma State University, \hfill August 2013.\\
+  GPA: 3.69
+
+\end{itemize}
+
+\section*{Publications}
+\begin{itemize}
+  
+\item
+  J.~Couch, S.~Eccles, W.~Fischler and M.~L.~Xiao,
+  ``Holographic complexity and noncommutative gauge theory,''
+  JHEP {\bf 1803}, 108 (2018)
+  doi:10.1007/JHEP03(2018)108
+  [arXiv:1710.07833 [hep-th]].
+  %%CITATION = doi:10.1007/JHEP03(2018)108;%%
+  11 citations counted in INSPIRE as of 09 Jun 2018
+
+\item  
+  J.~Couch, W.~Fischler and P.~H.~Nguyen,
+  ``Noether charge, black hole volume, and complexity,''
+  JHEP {\bf 1703}, 119 (2017)
+  doi:10.1007/JHEP03(2017)119
+  [arXiv:1610.02038 [hep-th]].
+  %%CITATION = doi:10.1007/JHEP03(2017)119;%%
+  55 citations counted in INSPIRE as of 09 Jun 2018
+
+  
+\end{itemize}
+
+\section*{Talks}
+\begin{itemize}
+
+\item "Holographic Complexity," Oklahoma State Universtiy, Stillwater, OK \hfill April 2018
+
+\item "Holographic Complexity and Non-Commutative Guage Theory," Southwest Holography Meeting 2018, University of Texas at Austin, Austin, TX \hfill March 2018
+
+\item "Holographic Complexity and Non-Commutative Guage Theory," Joint Meeting of the Texas Section of the APS, Texas Section of the AAPT, and Zone 13 of the SPS, Richardson, TX \hfill October 2017
+
+\end{itemize}
+
+\section*{Teaching Experience}
+\begin{itemize}
+
+\item PHY 316 (Electricity and Magnetism) - Grader and Discussion TA \hfill Spring 2017 \& 2018
+
+\item PHY 341 (Forensic Science) - Grader \hfill Fall 2017
+
+\item PHY 352K (Classical Electrodynamics I) - Grader and Discussion TA \hfill Fall 2016
+
+\item PHY 362L (Quantum Physics III: Particles and Nuclei) - Grader \hfill{Spring 2016}
+
+\item PHY 373 (Quantum Physics I: Foundations) - Grader \hfill{Fall 2015}
+
+\item PHY 103M (Lab for Engineering Physics II) - Teaching Assistant \hfill {S/F 2014 and S/Summer 2015}
+
+\item PHY 103N (Lab for Engineering Physics I) - Teaching Assistant \hfill {Fall 2013}
+
+\end{itemize}
+
+\section*{Honors and Awards}
+\begin{itemize} \itemsep1pt \parskip0pt \parsep0pt
+
+\item OGS Summer Only Fellowship \hfill{Summer 2018}
+
+\item Nominated for UT Services for Students with Disabillities Appreciation Award \hfill{Fall 2016}
+
+\item OSU Department of Physics Outstanding Senior \hfill{2012}
+
+\item OSU Department of Physics Outstanding Junior \hfill{2011}
+\end{itemize}
+
+\end{document}

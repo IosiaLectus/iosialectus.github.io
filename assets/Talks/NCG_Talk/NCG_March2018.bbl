@@ -1,0 +1,101 @@
+
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
+
+\bibitem{Susskind:2014moa}
+L.~Susskind, \emph{{Entanglement is not enough}},
+  \href{https://doi.org/10.1002/prop.201500095}{\emph{Fortsch. Phys.}
+  {\bfseries 64} (2016) 49--71},
+  [\href{https://arxiv.org/abs/1411.0690}{{\ttfamily 1411.0690}}].
+
+\bibitem{Susskind:2014rva}
+L.~Susskind, \emph{{Computational Complexity and Black Hole Horizons}},
+  \href{https://doi.org/10.1002/prop.201500093,
+  10.1002/prop.201500092}{\emph{Fortsch. Phys.} {\bfseries 64} (2016) 44--48},
+  [\href{https://arxiv.org/abs/1403.5695}{{\ttfamily 1403.5695}}].
+
+\bibitem{Stanford:2014jda}
+D.~Stanford and L.~Susskind, \emph{{Complexity and Shock Wave Geometries}},
+  \href{https://doi.org/10.1103/PhysRevD.90.126007}{\emph{Phys. Rev.}
+  {\bfseries D90} (2014) 126007},
+  [\href{https://arxiv.org/abs/1406.2678}{{\ttfamily 1406.2678}}].
+
+\bibitem{Susskind:2014jwa}
+L.~Susskind and Y.~Zhao, \emph{{Switchbacks and the Bridge to Nowhere}},
+  \href{https://arxiv.org/abs/1408.2823}{{\ttfamily 1408.2823}}.
+
+\bibitem{Brown:2015bva}
+A.~R. Brown, D.~A. Roberts, L.~Susskind, B.~Swingle and Y.~Zhao,
+  \emph{{Holographic Complexity Equals Bulk Action?}},
+  \href{https://doi.org/10.1103/PhysRevLett.116.191301}{\emph{Phys. Rev. Lett.}
+  {\bfseries 116} (2016) 191301},
+  [\href{https://arxiv.org/abs/1509.07876}{{\ttfamily 1509.07876}}].
+
+\bibitem{Brown:2015lvg}
+A.~R. Brown, D.~A. Roberts, L.~Susskind, B.~Swingle and Y.~Zhao,
+  \emph{{Complexity, action, and black holes}},
+  \href{https://doi.org/10.1103/PhysRevD.93.086006}{\emph{Phys. Rev.}
+  {\bfseries D93} (2016) 086006},
+  [\href{https://arxiv.org/abs/1512.04993}{{\ttfamily 1512.04993}}].
+
+\bibitem{Hashimoto:1999ut}
+A.~Hashimoto and N.~Itzhaki, \emph{{Noncommutative Yang-Mills and the AdS / CFT
+  correspondence}},
+  \href{https://doi.org/10.1016/S0370-2693(99)01037-0}{\emph{Phys. Lett.}
+  {\bfseries B465} (1999) 142--147},
+  [\href{https://arxiv.org/abs/hep-th/9907166}{{\ttfamily hep-th/9907166}}].
+
+\bibitem{Maldacena:1999mh}
+J.~M. Maldacena and J.~G. Russo, \emph{{Large N limit of noncommutative gauge
+  theories}}, \href{https://doi.org/10.1088/1126-6708/1999/09/025}{\emph{JHEP}
+  {\bfseries 09} (1999) 025},
+  [\href{https://arxiv.org/abs/hep-th/9908134}{{\ttfamily hep-th/9908134}}].
+
+\bibitem{Cai:1999aw}
+R.-G. Cai and N.~Ohta, \emph{{On the thermodynamics of large N noncommutative
+  superYang-Mills theory}},
+  \href{https://doi.org/10.1103/PhysRevD.61.124012}{\emph{Phys. Rev.}
+  {\bfseries D61} (2000) 124012},
+  [\href{https://arxiv.org/abs/hep-th/9910092}{{\ttfamily hep-th/9910092}}].
+
+\bibitem{Edalati:2012jj}
+M.~Edalati, W.~Fischler, J.~F. Pedraza and W.~Tangarife~Garcia, \emph{{Fast
+  Scramblers and Non-commutative Gauge Theories}},
+  \href{https://doi.org/10.1007/JHEP07(2012)043}{\emph{JHEP} {\bfseries 07}
+  (2012) 043}, [\href{https://arxiv.org/abs/1204.5748}{{\ttfamily 1204.5748}}].
+
+\bibitem{Fischler:2013gsa}
+W.~Fischler, A.~Kundu and S.~Kundu, \emph{{Holographic Entanglement in a
+  Noncommutative Gauge Theory}},
+  \href{https://doi.org/10.1007/JHEP01(2014)137}{\emph{JHEP} {\bfseries 01}
+  (2014) 137}, [\href{https://arxiv.org/abs/1307.2932}{{\ttfamily 1307.2932}}].
+
+\bibitem{Karczmarek:2013xxa}
+J.~L. Karczmarek and C.~Rabideau, \emph{{Holographic entanglement entropy in
+  nonlocal theories}},
+  \href{https://doi.org/10.1007/JHEP10(2013)078}{\emph{JHEP} {\bfseries 10}
+  (2013) 078}, [\href{https://arxiv.org/abs/1307.3517}{{\ttfamily 1307.3517}}].
+
+\bibitem{Alishahiha:1999ci}
+M.~Alishahiha, Y.~Oz and M.~M. Sheikh-Jabbari, \emph{{Supergravity and large N
+  noncommutative field theories}},
+  \href{https://doi.org/10.1088/1126-6708/1999/11/007}{\emph{JHEP} {\bfseries
+  11} (1999) 007}, [\href{https://arxiv.org/abs/hep-th/9909215}{{\ttfamily
+  hep-th/9909215}}].
+
+\bibitem{Berman:2000jw}
+D.~S. Berman, V.~L. Campos, M.~Cederwall, U.~Gran, H.~Larsson, M.~Nielsen
+  et~al., \emph{{Holographic noncommutativity}},
+  \href{https://doi.org/10.1088/1126-6708/2001/05/002}{\emph{JHEP} {\bfseries
+  05} (2001) 002}, [\href{https://arxiv.org/abs/hep-th/0011282}{{\ttfamily
+  hep-th/0011282}}].
+
+\bibitem{Carmi:2017jqz}
+D.~Carmi, S.~Chapman, H.~Marrochio, R.~C. Myers and S.~Sugishita, \emph{{On the
+  Time Dependence of Holographic Complexity}},
+  \href{https://arxiv.org/abs/1709.10184}{{\ttfamily 1709.10184}}.
+
+\bibitem{Cottrell:2017ayj}
+W.~Cottrell and M.~Montero, \emph{{Complexity is Simple}},
+  \href{https://arxiv.org/abs/1710.01175}{{\ttfamily 1710.01175}}.
+
+\end{thebibliography}\endgroup

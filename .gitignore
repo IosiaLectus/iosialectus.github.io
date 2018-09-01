@@ -9,9 +9,14 @@ _site
 *.toc
 
 *.sty
+*.nav
+*.snm
+*.blg
+
+*.sty
+*.bst
 
 *.fls
 *.lb
 *.fdb_latexmk
-
 *.zip
