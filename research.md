@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-My recent work has been focused on the holographic complexity proposals of Susskind et al., though I am also thinking about complexity in quantum field theory and ER=EPR. 
+My research has so far been focused on the holographic complexity proposals of Susskind et al., though I am broadly interested in the interesection of gravity, quantum field theory, and quantum information. My previous work is outlined below by my publications and talks. My current work is largely focused on subregion complexity in holography and mixed state complexity in field theory. I am also thinking about traversible wormholes and complexity in non-local field theory.
 
 ********************
 
@@ -26,9 +26,17 @@ Here is a list of my publications and preprints with abstracts:
 > In this paper, we study the physical significance of the thermodynamic volumes of AdS black holes using the Noether charge formalism of Iyer and Wald. After applying this formalism to study the extended thermodynamics of a few examples, we discuss how the extended thermodynamics interacts with the recent complexity = action proposal of Brown et al. (CA-duality). We, in particular, discover that their proposal for the late time rate of change of complexity has a nice decomposition in terms of thermodynamic quantities reminiscent of the Smarr relation. This decomposition strongly suggests a geometric, and via CA-duality holographic, interpretation for the thermodynamic volume of an AdS black hole. We go on to discuss the role of thermodynamics in complexity = action for a number of black hole solutions, and then point out the possibility of an alternate proposal, which we dub “complexity = volume 2.0”. In this alternate proposal the complexity would be thought of as the spacetime volume of the Wheeler-DeWitt patch. Finally, we provide evidence that, in certain cases, our proposal for complexity is consistent with the Lloyd bound whereas CA-duality is not.
 
 
-<!--**************************
+**************************
 
-## Talks -->
+## Talks
+
+Here is a list of my talks and presentations.
+
+* "Holographic Complexity," Oklahoma State University, Stillwater OK (April 2018)
+
+* ["Holographic Complexity and Non-Commutative Guage Theory,"](/assets/Talks/NCG_Talk/NCG_March2018.pdf) Southwest Holography Meeting 2018, University of Texas at Austin, Austin, TX (March 2018)
+
+* "Holographic Complexity and Non-Commutative Guage Theory," Joint Meeting of the Texas Section of the APS, Texas Section of the AAPT, and Zone 13 of the SPS, Richardson, TX (October 2017) 
 
 **********************
 
