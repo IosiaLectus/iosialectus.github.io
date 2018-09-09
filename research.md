@@ -4,14 +4,14 @@ title: Research
 permalink: /research/
 ---
 
-My research has so far been focused on the holographic complexity proposals of Susskind et al., though I am broadly interested in the interesection of gravity, quantum field theory, and quantum information. My previous work is outlined below by my publications and talks. My current work is largely focused on subregion complexity in holography and mixed state complexity in field theory. I am also thinking about traversible wormholes and complexity in non-local field theory.
+My research has so far been focused on the holographic complexity proposals of Susskind et al., though I am broadly interested in the intersection of gravity, quantum field theory, and quantum information. My previous work, as indicated below by my publications and talks, has looked at possible links between holographic complexity and the extended black hole thermodynamics, at holographic complexity in non-commutative gauge theories, and in general properties of the 'complexity = volume' conjecture. My current work is largely focused on subregion complexity in holography and mixed state complexity in field theory. I am also thinking about traversable wormholes and complexity in non-local field theory.
 
 ********************
 
 ## Publications
 Here is a list of my publications and preprints with abstracts:
 
-### J. Couch, S. Eccles, T. Jacobson and P. Nguyen, **Holgraphic Complexity and Volume**, 2017. [[arxiv:1807.02186](https://arxiv.org/abs/1807.02186)] 
+### J. Couch, S. Eccles, T. Jacobson and P. Nguyen, **Holographic Complexity and Volume**, 2017. [[arxiv:1807.02186](https://arxiv.org/abs/1807.02186)] 
 
 > The previously proposed "Complexity=Volume" or CV-duality is probed and developed in several directions. We show that the apparent lack of universality for large and small black holes is removed if the volume is measured in units of the maximal time from the horizon to the "final slice" (times Planck area). This also works for spinning black holes. We make use of the conserved "volume current", associated with a foliation of spacetime by maximal volume surfaces, whose flux measures their volume. This flux picture suggests that there is a transfer of the complexity from the UV to the IR in holographic CFTs, which is reminiscent of thermalization behavior deduced using holography. It also naturally gives a second law for the complexity when applied at a black hole horizon. We further establish a result supporting the conjecture that a boundary foliation determines a bulk maximal foliation without gaps, establish a global inequality on maximal volumes that can be used to deduce the monotonicity of the complexification rate on a boost-invariant background, and probe CV duality in the settings of multiple quenches, spinning black holes, and Rindler-AdS.
 
