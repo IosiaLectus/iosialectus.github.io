@@ -30,13 +30,13 @@ Here is a list of my publications and preprints with abstracts:
 
 ## Talks
 
-Here is a list of my talks and presentations.
+Here is a list of my talks and presentations:
 
-* "Holographic Complexity," Oklahoma State University, Stillwater OK (April 2018)
+* ["Holographic Complexity,"](/assets/Talks/OSU2018/OSU_Talk_2018.pdf) Oklahoma State University, Stillwater OK (April 2018)
 
-* ["Holographic Complexity and Non-Commutative Guage Theory,"](/assets/Talks/NCG_Talk/NCG_March2018.pdf) Southwest Holography Meeting 2018, University of Texas at Austin, Austin, TX (March 2018)
+* ["Holographic Complexity and Non-Commutative Guage Theory,"](/assets/Talks/SWHolography2018/NCG_March2018.pdf) Southwest Holography Meeting 2018, University of Texas at Austin, Austin, TX (March 2018)
 
-* "Holographic Complexity and Non-Commutative Guage Theory," Joint Meeting of the Texas Section of the APS, Texas Section of the AAPT, and Zone 13 of the SPS, Richardson, TX (October 2017) 
+* ["Holographic Complexity and Non-Commutative Guage Theory,"](/assets/Talks/APS2017/APSTalkOct2017.pdf) Joint Meeting of the Texas Section of the APS, Texas Section of the AAPT, and Zone 13 of the SPS, Richardson, TX (October 2017) 
 
 **********************
 
