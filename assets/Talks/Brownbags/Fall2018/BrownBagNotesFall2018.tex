@@ -31,7 +31,7 @@
 
 \section{Black Holes and Complexity}
 
-One of the major open problems in AdS/CFT is what in the CFT is dual to the behind the horizon geometry of a black hole solution. There is some sense in which the answer cannot be any of the usual quantities we consider in on a CFT (or rather a double copy of a CFT on which we may purify a thermal state), because the behind the horizon geometry is dynamic (in that there is not timelike killing vector), and yet the dual state is thermal. The usual intuition is that thermal states are not dynamic on time scales larger than a thermal time. Susskind has conjectured that certain quantities sensitive to the behind the horizon  region, namely the volume of maximal spatial slices, or the action evaluated on the causal development of such slices \footnote{With reflecting boudary conditions, a cauchy slice strictly speaking has a domain of dependence consisting of the whole space time. However, if we cutoff a cauchy slice at some finite value of the bulk coordinate, then the regulated WDW patch is the domain of dependence of this regulated slice, and we recover the full WDW patch as this regulator approaches the asymptotic boundary.}(The Wheeler-DeWitt(WDW) patch). The evidence for this conjecture is somewhat circumstantial, and was reviewed recently in the talk by Stefan. Here, I will just give a brief review of the main points: 
+One of the major open problems in AdS/CFT is what in the CFT is dual to the behind the horizon geometry of a black hole solution. There is some sense in which the answer cannot be any of the usual quantities we consider in on a CFT (or rather a double copy of a CFT on which we may purify a thermal state), because the behind the horizon geometry is dynamic (in that there is not timelike killing vector), and yet the dual state is thermal. The usual intuition is that thermal states are not dynamic on time scales larger than a thermal time. Susskind has conjectured that certain quantities sensitive to the behind the horizon  region, namely the volume of maximal spatial slices, or the action evaluated on the causal development of such slices \footnote{With reflecting boudary conditions, a cauchy slice strictly speaking has a domain of dependence consisting of the whole space time. However, if we cut off a cauchy slice at some finite value of the bulk coordinate, then the regulated WDW patch is the domain of dependence of this regulated slice, and we recover the full WDW patch as this regulator approaches the asymptotic boundary.}(The Wheeler-DeWitt(WDW) patch) are dual to the circuit complexity of the dual quantum state. The evidence for this conjecture is somewhat circumstantial, and was reviewed recently in the talk by Stefan. Here, I will just give a brief review of the main points: 
 
 \begin{itemize}
 
@@ -69,32 +69,36 @@ Notice now that relative complexity of either unitaries or states now provides a
 
 \end{itemize}
 
-Similar argumetns show the relative complexity to form a metric on states. Since the complexity forms a metric, it would be nice to geometrize the complexity. One can see a geometric interpretation should hold approximately when the tolerance and the distance of the memebers of $\mathcal{G}$ (under the usual left and right invariant metric) from the identity both are taken to be extremely small. Following this idea, we may construct the {\it complexity geometry} by trading $\mathcal{G}$ for the generators (in the Lie group sense) of its elements, so that $g_i = Exp(X_i)$. Then we may write any operator as 
+Similar argumetns show the relative complexity to form a metric on states. Since the complexity forms a metric, it would be nice to geometrize the complexity. One can see a geometric interpretation should hold approximately when the tolerance and the distance of the memebers of $\mathcal{G}$ (under the usual left and right invariant metric) from the identity both are taken to be extremely small. Following this idea, we may construct the {\it complexity geometry} by trading $\mathcal{G}$ for the generators (in the Lie group sense) of its elements, so that $g_i = \exp(X_i)$. Then we may write any operator as 
 
 $$U = \exp\left( \int_0^1 ds Y^I(s) X_I \right)$$
 
 and define the geometrized complexity of $U$ to be given by
 
-$$F_1(Y) = \int_0^1 \left|Y^I(s)\right| ds$$
+$$F_1(Y) = \int_0^1 \sum_I \left|Y^I(s)\right| ds$$
 
 evaluated for the $Y$ which minimizes this functional (among those which construct $U$). This provides a {\it Finsler} metric on $SU(D)$, but not a Riemannian metric. In order to have a Riemannian metric (which is easier to work with), we may define complexity with the alternative functional 
 
 $$F_2(Y) = \int_0^1 \sqrt{G_{IJ} Y^I(s) Y^J(s)}$$
 
-for some choice of a metric tensor $G_IJ$. if $G_{IJ}$ has a negative curvature, then on scales much larger than this curvature, these two functionals can be made approximately equal (This is due to the negative curvature version of the Pythagorean theorem).
+for some choice of a metric tensor $G_{IJ}$. if $G_{IJ}$ has a negative curvature, then on scales much larger than this curvature, these two functionals can be made approximately equal (This is due to the negative curvature version of the Pythagorean theorem) (explain this more clearly).
 
-\section{Complexity in QM}
+\section{Complexity in lattice regulated free scalar field theory}
 
-\section{Subregion Complexity}
+Armed with a definition of complexity, we are now equipped to try to compute the complexity of some state on a quantum field theory. As typical physicists, we will start by considering harmonic oscillators, and to start with we will only consider the ground state. Here we will follow the work of (cite Jefferson and Myers here) ...
 
-As we saw above
+\section{Comparison to Holographic Results}
 
 \section{Purification Complexity}
 
-\section{Purification Complexity in QM}
+One feature of the holographic complexity examples is that they may in principle be applied to any asymptotically AdS geometry, even those that are geodesically incomplete. While most such geometries are probably not holographic, is has been argued that geometries which come as the entanglment wedge of the boundary region of a geodesically complete spacetime are dual to the reduced state on that subregion. As such, it is reasonable to think that if the one of the holographic complexity conjectures is true, then when applied to an entanglment wedge they should give the complexity of this reduced state. Here, however, we run into the problem that there is not a unique way to extend the definition of complexity outlined above to include complexities for mixed states.
+
+\section{Purification Complexity in free scalar field theory}
+
+\section{Comparison to subregion complexity}
 
 %\bibliographystyle{JHEP}
-%\bibliography{ThreadsBib.bib} %For bibtex
+%\bibliography{complexity.bib} %For bibtex
 
 \nocite{*}
 
