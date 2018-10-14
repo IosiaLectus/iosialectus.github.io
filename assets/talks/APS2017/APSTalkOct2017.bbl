@@ -1,0 +1,31 @@
+
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{1}
+
+\bibitem{Hashimoto:1999ut}
+A.~Hashimoto and N.~Itzhaki, \emph{{Noncommutative Yang-Mills and the AdS / CFT
+  correspondence}},
+  \href{https://doi.org/10.1016/S0370-2693(99)01037-0}{\emph{Phys. Lett.}
+  {\bfseries B465} (1999) 142--147},
+  [\href{https://arxiv.org/abs/hep-th/9907166}{{\ttfamily hep-th/9907166}}].
+
+\bibitem{Maldacena:1999mh}
+J.~M. Maldacena and J.~G. Russo, \emph{{Large N limit of noncommutative gauge
+  theories}}, \href{https://doi.org/10.1088/1126-6708/1999/09/025}{\emph{JHEP}
+  {\bfseries 09} (1999) 025},
+  [\href{https://arxiv.org/abs/hep-th/9908134}{{\ttfamily hep-th/9908134}}].
+
+\bibitem{Alishahiha:1999ci}
+M.~Alishahiha, Y.~Oz and M.~M. Sheikh-Jabbari, \emph{{Supergravity and large N
+  noncommutative field theories}},
+  \href{https://doi.org/10.1088/1126-6708/1999/11/007}{\emph{JHEP} {\bfseries
+  11} (1999) 007}, [\href{https://arxiv.org/abs/hep-th/9909215}{{\ttfamily
+  hep-th/9909215}}].
+
+\bibitem{Berman:2000jw}
+D.~S. Berman, V.~L. Campos, M.~Cederwall, U.~Gran, H.~Larsson, M.~Nielsen
+  et~al., \emph{{Holographic noncommutativity}},
+  \href{https://doi.org/10.1088/1126-6708/2001/05/002}{\emph{JHEP} {\bfseries
+  05} (2001) 002}, [\href{https://arxiv.org/abs/hep-th/0011282}{{\ttfamily
+  hep-th/0011282}}].
+
+\end{thebibliography}\endgroup
