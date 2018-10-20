@@ -1,9 +1,10 @@
-\documentclass[10pt]{beamer}
+\documentclass[10pt,aspectratio=169]{beamer}
 \usetheme{Boadilla}
 
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{subfig}
+\usepackage{xcolor}
 \usepackage{amsmath,amssymb}
 
 \graphicspath{ {images/} }
@@ -30,27 +31,100 @@
 \titlepage\end{frame}
 
 \begin{frame}
-\frametitle{The AdS/CFT correspondence}
+\frametitle{Introduction}
+
+Around 2014, Leonard Susskind and collaborators proposed a new entry in the {\color{blue} AdS/CFT dictionary}, namely that the volume of a maximal spatial slice of of asymptotically AdS spacetime is dual {\color{red} quantum circuit complexity} in the dual CFT.
+
+%\hfill
+
+\begin{minipage}[t]{0.48\linewidth}
+
+{\color{blue} The AdS/CFT correspondence}:
+
+\begin{itemize}
+
+	\item Duallity between quantum gravity in $d+1$ dimensions and a conformal field theory in $d$ dimensions.
+	
+	\item The gravity theory lives on an Asymptotically $AdS$ (constant negative curvature) spacetime. 
+	
+	\item Relates weakly coupled gravity to strongly coupled CFT, and classical limit of gravity to limit of CFT with infinite d.o.fs.
+	
+	\item Quantities/observables from the CFT are related to those in the gravity theory and vice versa through the {\it 'dictionary'}.
+
+\end{itemize}
+
+\end{minipage}\hfill
+%
+\begin{minipage}[t]{0.48\linewidth}
+
+{\color{red} Quantum Circuit Complexity}:
+
+\begin{itemize}
+
+	\item Consider a Hilbert space $\mathcal{H}$, e.g., the Hilbert space for $N$ quantum bits, and a (computationally) universal set of unitary {\it gates} $\{g_i\}$ on $\mathcal{H}$
+
+	\item Consider also a reference state $\ket{R}$
+	
+	\item A product of gates $Q = \prod_i g_i$ is a quantum circuit, whose complexity is the number of gates in the product.
+	
+	\item Then the circuit complexity of a state $\ket{\psi}$ is the minimum complexity over all circuits $Q$ such that $\ket{\psi} = Q \ket{R}$
+
+\end{itemize}
+
+\end{minipage}
 
 \end{frame}
 
 \begin{frame}
-\frametitle{The holgraphic complexity conjecture}
+\frametitle{Holographic Complexity}
+
+So why would circuit complexity have anything to do with volume, anyway? Susskind was motivated by certain facts about the behind the horizon geometry of AdS black holes:
+
+\begin{itemize}
+
+\item (Large) black holes are dual to thermal states on the boundry. Two sided black holes are dual to a purification of the thermal state, the thermofield double state. 
+
+$$\ket{\text{TFD}} = \displaystyle\sum_n e^{- \beta E_n /2} \ket{n} \otimes \ket{n}$$
+
+\item The volume behind the black hole horizon increases in time, yet ordinary field theory obervables are not normally time dependent in a thermal state.
+
+\item However, we expect the {\it circuit complexity} of the TFD state to increase under time evolution, like the volume
+
+\item The volume also also reproduces the so-called {\it switchback effect}, an effect complexity is expected to exhibit.
+
+\item With a proper choice of normalization constant, the 'holographic complexity' computed by volume grows like $T S$ at late time. This matches the behavior expected of complexity based on circuit arguments. 
+
+\end{itemize}
 
 \end{frame}
 
 \begin{frame}
 \frametitle{Complexity in field theory?}
 
+While we have some indication holographic complexity {\it might} be correct, stronger evidence is needed before it is accepted as a valid entry in the AdS/CFT dictionary.
+
+\begin{itemize}
+
+\item Ideally we would compute the circuit complexity in the a CFT, and look for agreement.
+
+\item However, complexity in quantum field theories (as opposed to systems of qubits) is not well understood, so as a first step, we should understand circuit complexity in field theories.
+
+\item In the past two years or so, there has been progress towards this, by e.g. Hashimoto et al. (2017) in for lattice gauge theory, and by Jefferson et al. (2017) and Chapmap et al. (2017) respectivley for lattice regularized scalar FT.
+
+\item In particular, Jefferson et al. considered Guassian states of harmonic oscillators, and a gate set which, though not universal, is at least universal on Gaussian states, and a reference state
+
+$$\ket{R} \propto e^{-\frac{1}{2} \omega_0 |\vec{x}|^2}$$ 
+
+\item They found that the complexity of a Gaussian state on $N$ oscillators, with normal mode frequencies $\omega_i$, is given by 
+
+$$ C = \sum_{i=1}^N \log\left| \frac{\omega_i}{\omega_0}\right|$$ 
+
+\end{itemize}
+
 \end{frame}
 
 \begin{frame}
-\frametitle{Subregion complexity}
-
-\end{frame}
-
-\begin{frame}
-\frametitle{Purification complexity}
+\frametitle{Subregion Complexity and Purification Complexity}
 
 \end{frame}
 
