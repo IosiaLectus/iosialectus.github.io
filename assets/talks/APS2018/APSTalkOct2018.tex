@@ -126,10 +126,54 @@ $$ C = \sum_{i=1}^N \log\left| \frac{\omega_i}{\omega_0}\right|$$
 \begin{frame}
 \frametitle{Subregion Complexity and Purification Complexity}
 
+Subregion Complexity:
+
+\begin{itemize}
+
+\item It is widely believed that the reduced state on a subregion of the CFT is dual to the bulk {\it entanglement wedge} associated to that region. This is called subregion duality.
+
+\item We may apply the holographic complexity conjectures to the entanglement wedge just as easily as to the whole geometry.
+
+\item The resulting quantity is termed {\it subregion complexity}. It is conjectured that it is dual to some notion of complexity on the reduced state.
+
+\item However, there is not a unique way to extend the definition of complexity to mixed states.
+
+\end{itemize}
+
+Purification Complexity:
+
+\begin{itemize}
+
+\item Recently, Ag\'on et al. studied different definitions of mixed state complexity, and compared expectations about them to holographic subregion complexity.
+
+\item They suggested that the closest match to holographic complexity (in its complexity = action form, anyway) was the {\it purification complexity}.
+
+\item The purification complexity of a state $\rho$ is defined as the minimum complexity $C(\ket{\psi})$ over all purifcations $\ket{\psi}$ of $\rho$, which don't have any seperable factor which is also a purification of $\rho$.
+
+\end{itemize}
+
 \end{frame}
 
 \begin{frame}
 \frametitle{Purification complexity in field theory}
+
+Can we compute purification complexity in FT?
+
+\begin{itemize}
+
+\item Well, we can do small numbers of harmonic oscillators.
+
+\item Hard to minimize over all purifcations $\rightarrow$ try just those of on to copies of original Hilbert space.
+
+\item Parameterize all purifications to the Guassian state, and numerically minimize the complexity as found by Jefferson et al.
+
+$$C = \sum_i \log \left| \frac{\omega_i}{\omega_0} \right|$$
+
+\item Consider mixed states that come by tracing out all but a few sites on a lattice
+
+\item Compare result to holographic computation.
+
+\end{itemize}
 
 \end{frame}
 
