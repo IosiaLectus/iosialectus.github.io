@@ -46,4 +46,4 @@ Here is a list of my talks and presentations:
 
 **********************
 
-For more information about my publications, see my [CV]({{ site.base_url }}/cv.pdf), my [inSPIRE](https://inspirehep.net/author/profile/{{ site.inspirehep }}) profile, or [Research Gate](https://www.researchgate.net/profile/{{ site.research_gate }}).
+For more information about my publications, see my [CV]({{ site.base_url }}/assets/cv/cv.pdf), my [inSPIRE](https://inspirehep.net/author/profile/{{ site.inspirehep }}) profile, or [Research Gate](https://www.researchgate.net/profile/{{ site.research_gate }}).
