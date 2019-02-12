@@ -1,0 +1,52 @@
+\documentclass[8pt,aspectratio=169]{beamer}
+\usetheme{Boadilla}
+
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{amsmath,amssymb}
+
+\graphicspath{ {images/} }
+
+\usepackage{tikz}
+
+%Some useful commands for QM
+\newcommand{\bra}[1]{\left< #1 \right|}
+\newcommand{\ket}[1]{\left| #1 \right>}
+\newcommand{\expVal}[1]{\left< #1 \right>}
+\newcommand{\braket}[2]{\left<#1|#2\right>}
+
+% Set beamer color info
+\definecolor{BOrange}{RGB}{191,87,0}
+\setbeamercolor{title}{fg=black}
+\setbeamercolor{frametitle}{fg=black}
+\setbeamercolor{structure}{fg=BOrange}
+
+%Stolen from http://tex.stackexchange.com/questions/178800/creating-sections-each-with-title-pages-in-beamers-slides
+\AtBeginSection[]{
+  \begin{frame}
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+  \end{beamercolorbox}
+  \vfill
+  \end{frame}
+}
+
+\title{Holographic Complexity and Volume}
+\subtitle{Work with Stefan Eccles, Ted Jacobson, and Phuc Nguyen\\ arxiv:1807.02186}
+\author{Josiah Couch}
+\institute{University of Texas at Austin}
+\date{16 February 2019}
+
+
+
+\begin{document}
+
+\begin{frame}
+\titlepage\end{frame}
+
+
+
+\end{document}
