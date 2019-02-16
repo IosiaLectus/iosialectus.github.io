@@ -1,4 +1,4 @@
-\documentclass[8pt,aspectratio=169]{beamer}
+ \documentclass[8pt,aspectratio=169]{beamer}
 \usetheme{Boadilla}
 
 \usepackage{hyperref}
@@ -237,7 +237,7 @@ What do we learn from these volume flows?
     
     \end{center}
     \caption{Maximal slices associated to different boundary slices for two-sided BH.}
-    \label{fig:WDW}
+    \label{fig:WDW}u
 \end{figure}
 
 \end{minipage}
@@ -248,9 +248,37 @@ What do we learn from these volume flows?
 \begin{frame}
 \frametitle{Complexity = Action or Volume?}
 
+\begin{itemize}
+
+\item Susskind's original conjecture that the maximal volume is dual to circuit complexity ('complexity = volume') has since been updated to a conjecture that the action evaluated on the causal development of such a slice is what is dual to circuit complexity ('complexity = action')
+
+\item In general the arguments that these conjectures are reasonable are broadly similar (switchback effect, scaling)
+
+\item Argument for replacing 'complexity = volume' by 'complexity = action' is largely due to the scaling. 
+
+	\begin{itemize}
+	
+	\item Complexity is unitless, action and volume are unitful.
+	
+	\item There is an expectation that the late time rate of change of complexity for thermal states should scale like $TS$.
+	
+	\item For action, we can fix units by dividing by $\hbar$, and the scaling is already okay.
+	
+	\item For volume, to get correct scaling, must defide by AdS radius for large black holes, but the horizon radius for small black holes.
+	
+	\item We notice that you get the right scaling in 'complexity = volume' in a wide variety of cases if one divides by the maximal time from the horizon to the last slice.
+	
+	\item On the other hand, this only works when there is a horizon.
+	
+	\end{itemize}
+	
+\item The rate of change of the action of the WDW patch is known not to increase monotonically, and instead reaches a local maximum before asyptotically approaching a smaller value from below (see Carmi et al.).
+
+\item Perhaps it is less clear that 'complexity = action' is an improvement on 'complexity = volume'.
+
+\end{itemize}
 
 \end{frame}
-
 
 
 \end{document}
