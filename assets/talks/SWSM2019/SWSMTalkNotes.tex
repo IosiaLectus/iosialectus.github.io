@@ -1,0 +1,37 @@
+\documentclass[12pt]{amsart}
+
+\usepackage{amsthm,enumitem}
+\linespread{1.6}
+
+%Some useful commands for QM
+\newcommand{\bra}[1]{\left< #1 \right|}
+\newcommand{\ket}[1]{\left| #1 \right>}
+\newcommand{\expVal}[1]{\left< #1 \right>}
+\newcommand{\braket}[2]{\left<#1|#2\right>}
+
+\begin{document}
+
+\title{SWSM 2019 Talk Notes: Holographic Complexity and Volume}
+\author{Josiah Couch}
+
+\maketitle
+
+\section{Introduction and Motivation}
+
+This talk will mostly be concerned with properties of foliations of spacetimes by maximal spatial slices, and of the congruence of unit normal vectors to this foliation. Our motivation for considering such foliations is two-fold: First, maximal spatial slices of asymptotically AdS spacetimes have been conjectured by Susskind to be dual the quantum circuit complexity of the dual CFT state ("complexity = volume"). While it is true this conjecture has been largely been suplanted by the more recent 'complexity = action' conjecture, the motivation behind the conjecture is perhaps more important than the conjecture itself. The maximal spatial slice is simply an invariantly defined object whose volume (or at least that part of the volume lying behind the horizon) captures the growth of the wormhole in static black hole geometries. This growth of the wormhole is one feature of the behind the horizon geometry which it would be nice to understand from the point of view of the boundary CFT, whether or not the dual quantity turns out to be a complexity as suggested by Susskind. Second, a new tool for the study of extremal surfaces has recently come to light in the high energy commun ity, namely the min-cut max flow theorem. The Euclidean version of this theorem was used to recast the Ryu-Takayanagi prescription and provide an alternate way of thinking about certain properties of holgraphic entanglement entropy by Headrick and Freedman. A Lorentzian signature version of this theorem was presented in a paper by Headrick and Hubeny, and applies to maximal volume slices. It seems useful to see what kind of insights we might gain maximal volumes, and by extension to complexity (or whatever bulk quantity should replace the complexity in describing black holes), by thinking in this flow picture.
+
+\subsection{A not on the normalization of CV}
+
+...
+
+\section{Bit Threads and Volume Flows}
+
+In the original bit thread paper by Headrick and Freedman, the min-cut/max-flow theorem is applied to the probelm of finding the RT surface to a time slice of some asymtotically AdS spacetime. the MF/MC theorem is simply a consequence of so called Lagrangian duality in convex optimization, and states that given a manifold with boundary, and a boundary region $A$, the area of the minimal surface homologous to $A$ is given by the maximal flux through $A$ over all divergenceless vector fields of norm less than or equal to one (so called 'flows'). Going to Lorentzian signature, we trade a minmal surface for a maximal spatial slice, an upper bound on the norm for a lower bound, and require the vector field to be timelike. We thus get that the volume of a maximal spatial slice, bounded by some slice cauchy slice $\sigma$ of the boundary, is given by the the minimum flux through the past of $sigma$ (on the boundary) of all divergenceless time-like vector fields whose norm is greater than or equal to one. One feature of the MF/MC theorem is that the minimizing/maximizing vector field is highly non-unique. However, these flows do obey a so called {\it nesting property}. In Euclidean signature, this states that given boundary subregions $A \subset B$, there is a flow whose flux is simultaneously maximized through both $A$ and $B$. In Lorentzian signature, we get instead that given cauchy slices $\sigma_1$ and $\sigma_2$ of the boundary, where $\sigma_1$ is entirely to the past of $\sigma_2$, there is a flow which simultaneously computes the maximal volume associtated to both slices. Taking this a step further, given a foliation of the boundary in to time slices, there exists a (possibly non-unique) flow which simultaneously  compute the maximal volumes associated to all boundary slices in our foliation. In cases where the boundary foliation gives a foliation of the bulk by maximal slices, we may choose this flow to simply by the unit vector field normal to the bulk foliation. In our paper, we give an argument that a boundary foliation does in fact give a bulk foliation by maximal slices given the strong energy condition and Einstein's equation.
+
+\section{Insights from the Volume Flow Picture}
+
+\subsection{2nd Law of Complexity and flow from UV to IR}
+
+\subsection{Monotonicity of Complexity}
+
+\end{document}
