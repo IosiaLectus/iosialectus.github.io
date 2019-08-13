@@ -19,8 +19,8 @@ title: Josiah Couch
 description: >- # this means to ignore newlines until "baseurl:"
   Ph.D. candidate in physics working in AdS/CFT
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-company_website: 
+url: "josiahcouch.com" # the base hostname & protocol for your site, e.g. http://example.com
+company_website:
 research_gate: Josiah_Couch2
 github:  iosialectus
 linkedin: josiah-couch

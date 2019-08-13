@@ -1,0 +1,32 @@
+---
+layout: w3-layout
+title: Research
+permalink: /research/
+---
+
+<!-- Research Statement -->
+<div class="w3-container w3-padding-32" id="research_statement">
+  <h1 class="w3-center"> My Research </h1>
+  {% capture my_include %}
+    {% include research_statement.md %}
+  {% endcapture %}
+  {{ my_include | markdownify }}
+</div>
+
+<!-- Talks -->
+<div class="w3-container w3-padding-32" id="talks">
+  <h2 class="w3-center"> My Talks </h1>
+  {% capture my_include %}
+    {% include talks.md %}
+  {% endcapture %}
+  {{ my_include | markdownify }}
+</div>
+
+<!-- Publications -->
+<div class="w3-container w3-padding-32" id="pubs">
+  <h2 class="w3-center"> Publications </h1>
+  {% capture my_include %}
+    {% include publications.md %}
+  {% endcapture %}
+  {{ my_include | markdownify }}
+</div>
