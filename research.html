@@ -4,27 +4,79 @@ title: Research
 permalink: /research/
 ---
 
+<style>
+
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url("https://d3jf2jipiivcgq.cloudfront.net/58885796551f802075e3637.02407655.jpg");
+  min-height: 400px;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("https://d3jf2jipiivcgq.cloudfront.net/40919427654702fd8d89ee1.31076540.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("https://d3jf2jipiivcgq.cloudfront.net/162895086053854cccc53837.38308007.jpg");
+  min-height: 400px;
+}
+
+</style>
+
+<!-- First Parallax Image -->
+<div class="bgimg-1 w3-display-container">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-wide">My Research</span>
+  </div>
+</div>
+
 <!-- Research Statement -->
 <div class="w3-container w3-padding-32" id="research_statement">
-  <h1 class="w3-center"> My Research </h1>
+  <!--<h1 class="w3-center"> My Research </h1>-->
   {% capture my_include %}
     {% include research_statement.md %}
   {% endcapture %}
   {{ my_include | markdownify }}
 </div>
 
+<!-- Second Parallax Image -->
+<div class="bgimg-2 w3-display-container">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-wide">Talks</span>
+  </div>
+</div>
+
 <!-- Talks -->
 <div class="w3-container w3-padding-32" id="talks">
-  <h2 class="w3-center"> My Talks </h1>
+  <!--<h2 class="w3-center"> My Talks </h1>-->
   {% capture my_include %}
     {% include talks.md %}
   {% endcapture %}
   {{ my_include | markdownify }}
 </div>
 
+<!-- Third Parallax Image -->
+<div class="bgimg-3 w3-display-container">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-wide">Publications</span>
+  </div>
+</div>
+
 <!-- Publications -->
 <div class="w3-container w3-padding-32" id="pubs">
-  <h2 class="w3-center"> Publications </h1>
+  <!--<h2 class="w3-center"> Publications </h1>-->
   {% capture my_include %}
     {% include publications.md %}
   {% endcapture %}
