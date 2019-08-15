@@ -1,7 +1,7 @@
 
 
 ********************
-#### E. Cáceres, J. Couch, S. Eccles and W. Fischler, **Holographic Purification Complexity**, 2018. [[arxiv:1811.10650](https://arxiv.org/abs/1811.10650)]
+#### E. Cáceres, J. Couch, S. Eccles and W. Fischler, **Holographic Purification Complexity** Phys. Rev. D **99**, no. 8, 086016 (2019) [doi:10.1103/PhysRevD.99.086016](https://doi.org/10.1103/PhysRevD.99.086016] [[arxiv:1811.10650) [[arxiv:1811.10650](https://arxiv.org/abs/1811.10650)]
 
 > We study holographic subregion complexity, and its possible connection to purification complexity suggested recently by Agón et al. In particular, we study the conjecture that subregion complexity is the purification complexity by considering holographic purifications of a holographic mixed state. We argue that these include states with any amount of coarse-graining consistent with being a purification of the mixed state in question, corresponding holographically to different choices of the cutoff surface. We find that within the complexity = volume and complexity = spacetime volume conjectures, the subregion complexity is equal to the holographic purification complexity. For complexity = action, the subregion complexity seems to provide an upper bound on the holographic purification complexity, though we show cases where this bound is not saturated. One such example is provided by black holes with a large genus behind the horizon, which were studied by Fu et al. As such, one must conclude that these offending geometries are not holographic, that CA must be modified, or else that holographic subregion complexity in CA is not dual to the purification complexity of the corresponding reduced state.
 
