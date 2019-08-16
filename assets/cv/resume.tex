@@ -1,0 +1,208 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+%Fix spacing after sections
+\usepackage[compact]{titlesec}  
+\titlespacing{\section}{0pt}{*0}{*0}
+\titlespacing{\subsection}{0pt}{*0}{*0}
+\titlespacing{\subsubsection}{0pt}{*0}{*0}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{Josiah Couch}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {physics, mathematics},
+  pdftitle = {\name: resume},
+  pdfsubject = {resume},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  %body={6.5in, 8.5in},
+  left=0.25in,
+  right=0.25in,
+  top=0.15in,
+  bottom=0.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large\bf\sectionrule{0ex}{0pt}{-1ex}{1pt}}
+\subsectionfont{\rmfamily\mdseries\bf\normalsize}
+\subsubsectionfont{\rmfamily\mdseries\itshape\normalsize}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+%Control spacing between lines and after paragraphs
+\setlength{\parskip}{0em}
+\renewcommand{\baselinestretch}{0}
+
+% Section spacings
+\usepackage{titlesec}
+\titlespacing*{\section}{0em}{0em}{0em}
+\titlespacing*{\subsection}{0em}{0em}{0em}
+\titlespacing*{\subsubsection}{0em}{0em}{0em}
+
+
+% Control lists
+\renewenvironment{itemize}{
+  \begin{list}{$\bullet$}{
+    \setlength{\itemsep}{0em}
+    \setlength{\parskip}{0em}
+    \setlength{\parsep}{0em} 
+    \setlength{\topsep}{0em} 
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+%{\huge \name}
+
+% Alternatively, print name centered:
+\centerline{\LARGE \name}
+
+\begin{center}
+
+\small{\textbf{Email}: josiah.couch@utexas.edu \textbf{Website}: \url{josiahcouch.com}}
+
+\end{center}
+
+\section*{Education}
+
+\subsection*{University of Texas at Austin, Austin, TX}
+\subsubsection*{Ph.D in Physics (3.68 GPA) \hfill August 2013 - May 2020 (expected)}
+
+\begin{itemize}
+\item Dissertation Title: "Circuit Complexity in QFT and Holography" (tentative).
+
+\item Courses: Quantum Mechanics 1, Classical Mechanics, Statistical Mechanics, Electromagnetic Theory 1, Quantum Field Theory 1 \& 2, Relativity Theory 1, String Theory 1 \& 2, Algebraic Topology, Representation Theory.
+\end{itemize}
+
+%\subsection*{Technische Universit\"at M\"unchen, Garching, Bavaria, Germany}
+%\subsubsection*{Study Abroad \hfill October 2012 - August 2013}
+
+%\begin{itemize}
+%\item Courses: Functional Analysis, Introduction to Quantum Field Theory, German (A2), Spanish (B2/C1).
+%\end{itemize}
+
+\subsection*{Oklahoma State University, Stillwater, Oklahoma}
+\subsubsection*{B.S in Physics and B.S. in Mathematics \hfill August 2009 - August 2013}
+
+\begin{itemize}
+\item 10 Months study abroad at Technical University of Munich, Munich, Bavaria, Germany.
+\end{itemize}
+
+\section*{Experience}
+
+\subsection*{University of Texas at Austin, Austin, TX} 
+\subsubsection*{Graduate Student in Weinberg Theory Group under Prof. Willy Fischler \hfill August 2015 - Present}
+    \begin{itemize}
+    
+        \item Four papers published in peer reviewed journals with a total of 145 citations, four conference presentations, and numerous internal presentations.
+        \item Regularly collaborate with other physicists to do original research, especially at the intersection of quantum information and quantum gravity.
+ %       \item Formulate interesting and solvable problems, particularly related the AdS/CFT correspondence and it's intersection with quantum information theory.
+%        \item Solve quantitative problems in a collaborative environment with software tools, especially Wolfram Mathematica.
+%        \item Present findings to colleages through presentations both internally at UT and externally at conferences. 
+        
+    \end{itemize}
+    
+\subsubsection*{Teaching Assistant \hfill August 2013 - Present}
+    \begin{itemize}
+    
+        \item Provide supplemental instruction on course material and problem-solving techniques to students in review sessions.
+        \item Create official solutions to problem sets and grade student submissions.
+        %\item Responsible for lab sections, including instruction, evaluation, and student safety.
+        \item Courses TAed include graduate and undergraduate quantum mechanics, the lab for engineering physics, and classical electrodynamics.
+        
+    \end{itemize}
+    
+\subsubsection*{Graduate Research Assistant with Center for Particles and Fields under Prof. Peter Onyisi \hfill June - July 2014}
+    \begin{itemize}
+    
+    	\item Worked on data analysis and python programming at CERN's campus in Meyrin, Switzerland.
+        \item Used pyROOT and TMVA machine learning package to study feature importance in classification task.
+        \item Wrote script in python to retrieve infromation about the state of the ATLAS detector from COOL database.
+        
+    \end{itemize}
+    
+\subsection*{Max Planck Institut f\"ur Physik, Munich, Bavaria, Germany}
+
+\subsubsection*{Scientific Assistant with Experimental Particle Physics Group, 6 week contract \hfill April- May 2013}
+    \begin{itemize}
+        \item Tested and calibrated pixel detectors for ATLAS upgrade. 
+    \end{itemize}
+
+\subsection*{Oklahoma State University, Stillwater, OK}
+\subsubsection*{Undergraduate Researcher in Experimental Particle Physics Group under Prof. Flera Rizatdinova \hfill January 2010 - May 2012}
+    \begin{itemize}
+        \item Used C++ and ROOT package for event classification and ultimately for estimation of number of signal events.
+        \item Presented work in poster and live presentations.
+    \end{itemize}
+    
+%\subsubsection*{Computer Lab Monitor with DASNR Technology Services and %Support \hfill August 2009 - December 2011}
+%    \begin{itemize}
+%        \item Responsible for maintaining and (remotely) monitoring three %computer labs along with printers.
+%        \item Assisted DASNR faculty members and staff with software %installation.
+%        \item Replaced hard drives, power supplies, memory sticks, etc. in %desktop computers.
+%    \end{itemize}
+
+\section*{Skills}
+
+{\bf Soft Skills:} Quantitative Problem Solving, Research, Advanced Mathematics
+
+{\bf Technologies:}
+\begin{itemize}
+	\item[] Intermediate: Python, Git, Mathematica, LaTex, 
+	\item[] Beginner: SQL, Linux, Java, C++, Javascript, Haskell
+\end{itemize}
+ 
+
+%{\bf Languages:} Spanish (intermediate), German (beginner)
+
+\section*{Interests}
+
+Quantum Gravity, Quantum Information Theory, Programming, Data Analysis, Machine Learning, Blockchain, Photography, Video Games, Languages
+
+\end{document}
