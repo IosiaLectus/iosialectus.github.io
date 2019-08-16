@@ -13,12 +13,10 @@
         <img class="w3-image" src="assets/img/ProfilePic.jpg" alt="Me" style="width:90%">
       </div>
       <div class="column right">
-        <h3> About Me </h3>
-        <p>I am a physics Ph.D student at the University of Texas at Austin in the <a href="https://zippy.ph.utexas.edu/">Weinberg Theory Group</a>.
-          I have had a lifelong fascination with science, mathematics, and technology, which has culminated in my decision to study theoretical physics.
-          As a student in the theory group, I study the intersection of quantum information and quantum gravity in the context of the AdS/CFT correspondence.
-          As a somewhat nerdy layperson, I am broadly interested in a variety of topics in science, technology, and beyond.
-        </p>
+        {% capture my_include %}
+          {% include about_me.md %}
+        {% endcapture %}
+        {{ my_include | markdownify }}
       </div>
     </div>
   </div>
