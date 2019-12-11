@@ -117,7 +117,7 @@ v_I = \frac{v_E(f)}{1-f}
 
 \item Consider a chaotic quantum system along with a reference system.
 
-\item Let $\ket{\psi}$ be a translation-invariant state with fixed energy density $\epsilon$. $\ket{\psi}$ may not be in equilibrium, in which case the entropy density will be increasing. 
+\item Let $\ket{\psi}$ be a translation-invariant state with fixed energy density $\epsilon$. $\ket{\psi}$ may not be in equilibrium, but in that case will quickly equilibrate to a state which locally looks thermal. 
 
 \item We assume that the entanglement entropy of any large region $A$ at a given time $t$ is given to leading order by
 
@@ -189,11 +189,11 @@ S(A) = \min \bigg(s |A|, s \left(f |A| + v_E |\partial A| t \right) \bigg)
 
 \item Consider the case f=0. For simplicity, we will take the total state on the system to be pure.
 
-\item We want to find the (half) width $R(t)$ of the smallest region $A$ from which some initially local entanglement can be recovered.
+\item We want to find the linear size $R(t)$ of the smallest region $A$ from which some initially local entanglement can be recovered.
 
 \item Because we assumed $v_B$ is the fastest length scale, we must have $R(t) \leq v_B t$.
 
-\item On the other hand, if $R(t)<v_B t$, then the information on $A$ is fully scrambled.
+\item On the other hand, if $R(t)<v_B t$, then the initially local information is fully scrambled over $A$.
 
 \item by HP, because $A$ and $A^{c}$ are maximally entangled, we could recover the entanglement on $A^{c}$ plus a small subsystem of $A$.
 
@@ -242,6 +242,14 @@ t_{\text{sat}} = \frac{(1-f) R}{v_E(f)}
 \begin{equation}
 v_I = \frac{v_E(f)}{1-f}
 \end{equation}
+
+\item Note that so far, we have only shown
+
+\begin{equation}
+v_I = \min \left( v_B, \frac{v_E(f)}{1-f} \right)
+\end{equation}
+
+\item In the paper we present a seperate argument that in fact $v_E(f) \leq (1-f) v_B$. 
 
 \end{itemize}
 
