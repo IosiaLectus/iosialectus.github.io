@@ -2,6 +2,8 @@
 **************************
 Here is a list of my talks and presentations:
 
+* ["The Speed of Quantum Information Spreading in Chaotic Systems,"](/assets/talks/Mexicueras2019/mexicueras2019.pdf) Mexicueras 2019, Instituto de Ciencias Nucleares, UNAM, Mexico City, Mexico (Dec 2019)
+
 * ["Holographic Complexity and Volume,"](/assets/talks/SWSM2019/SWSM19.pdf) Southwest Strings Meeting 2019, Arizona State University, Tempe, AZ (Feb 2019)
 
 * ["Purification complexity in free scalar field theory,"](/assets/talks/APS2018/APSTalkOct2018.pdf) Joint Meeting of the Texas Section of the APS, Texas Section of the AAPT, and Zone 13 of the SPS, Houston, TX (October 2018)
