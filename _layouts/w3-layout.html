@@ -53,6 +53,16 @@ function myFunction() {
     x.className = x.className.replace(" w3-show", "");
   }
 }
+
+// different versions of portfolio text:
+
+var titanic_text = "<p> I have attempted a couple of the competitions at <a href='https://www.kaggle.com/'>Kaggle</a>. In particular, a Jupyter notebook for the Titanic Challenge can be found <a href='https://github.com/IosiaLectus/Titanic-on-Kaggle/blob/master/Titanic.ipynb'>here</a>. </p>";
+
+// Used to display portfolio items
+function set_portfolio_text(myString) {
+  document.getElementById("portfolio_text").innerHTML = myString;
+}
+
 </script>
 
 </body>
