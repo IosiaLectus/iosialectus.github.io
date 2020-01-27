@@ -1,4 +1,4 @@
 
-## About Me
+## About Me  
 
-Hi, my name is Josiah Couch. I am studying physics with the [Weinberg Theory Group](https://zippy.ph.utexas.edu/) in the [Department of Physics](https://www.ph.utexas.edu) at the University of Texas at Austin. At UT I think about the AdS/CFT correspondence and generally also work as a TA. Outside of UT, I enjoy trying new foods, posting photos to Instagram, and reading as well as talking about science and technology.  
+Josiah is finishing his Ph.D. in physics with the [Weinberg Theory Group](https://zippy.ph.utexas.edu/) in the [Department of Physics](https://www.ph.utexas.edu) at the University of Texas at Austin. His research focuses on quantum field theory and quantum gravity and their intersection with quantum information. Josiah programs in Python and is excited about solving complex problems especially involving machine learning, quantum technology, and mathematics.
