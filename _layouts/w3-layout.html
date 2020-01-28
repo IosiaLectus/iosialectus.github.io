@@ -54,14 +54,12 @@ function myFunction() {
   }
 }
 
-// different versions of portfolio text:
-
-var kaggle_text = "<p> I have attempted a couple of the competitions at <a href='https://www.kaggle.com/'>Kaggle</a>. In particular, a Jupyter notebook for the Titanic Challenge can be found <a href='https://github.com/IosiaLectus/Titanic-on-Kaggle/blob/master/Titanic.ipynb'>here</a>. </p>";
-var pygame_text = "<p>After coming accross <a href='https://inventwithpython.com/'>Al Swiegart's python books </a>, I decided to play around a bit with Pygame. The result was a cellular automaton implementation. The git repo is hosted on github <a href='https://github.com/IosiaLectus/CellularAutomata'>here</a>. </p>";
-var web_text = "<p>This is my personal website, the one you are currently enjoying.</p>";
 // Used to display portfolio items
-function set_portfolio_text(myString) {
-  document.getElementById("portfolio_text").innerHTML = myString;
+function unhide_portfolio(my_id) {
+  document.getElementById("portfolio_content_kaggle").className = "w3-container w3-padding-32 w3-hide";
+  document.getElementById("portfolio_content_pygame").className = "w3-container w3-padding-32 w3-hide";
+  document.getElementById("portfolio_content_web").className = "w3-container w3-padding-32 w3-hide";
+  document.getElementById(my_id).className = "w3-container w3-padding-32";
 }
 
 </script>

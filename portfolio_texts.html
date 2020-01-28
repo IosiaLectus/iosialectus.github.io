@@ -1,0 +1,26 @@
+---
+layout: w3-layout
+title: Portfolio Texts
+permalink: /port_texts/
+---
+
+<div class="w3-container w3-padding-32" id="portfolio_content_kaggle">
+  {% capture my_include %}
+    {% include portfolio_kaggle.md %}
+  {% endcapture %}
+  {{ my_include | markdownify }}
+</div>
+
+<div class="w3-container w3-padding-32" id="portfolio_content_pygame">
+  {% capture my_include %}
+    {% include portfolio_pygame.md %}
+  {% endcapture %}
+  {{ my_include | markdownify }}
+</div>
+
+<div class="w3-container w3-padding-32" id="portfolio_content_web">
+  {% capture my_include %}
+    {% include portfolio_web.md %}
+  {% endcapture %}
+  {{ my_include | markdownify }}
+</div>
