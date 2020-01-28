@@ -5,81 +5,59 @@ permalink: /portfolio/
 ---
 
 
-<!-- Intro -->
-<div class="w3-container w3-padding-32" id="coding_intro">
-  <h1 class="w3-center"> Programming Portfolio </h1>
-  {% capture my_include %}
-    {% include coding_intro.md %}
-  {% endcapture %}
-  {{ my_include | markdownify }}
-</div>
 
 <!-- !PAGE CONTENT! -->
-<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+<div class="w3-container w3-main w3-content w3-padding" style="max-width:90%;margin-top:100px">
 
-  <!-- First Project Row-->
-  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
-    <h2 class="w3-center"> General Programming </h2>
+  <!-- Intro -->
+  <div class="w3-container w3-padding-32" id="coding_intro">
+    <h1 class="w3-center"> Programming Portfolio </h1>
+      {% capture my_include %}
+        {% include coding_intro.md %}
+      {% endcapture %}
+      {{ my_include | markdownify }}
+  </div>
 
-    <p> Just a few general programming things.</p>
+  <h1 class="w3-center"> Projects </h2>
 
-    <div class="w3-half">
-      <h3>Cellular Automaton in Python with Pygame</h3>
-      <p>After coming accross <a href="https://inventwithpython.com/">Al Swiegart's python books </a>, I decided to play around a bit with Pygame. The result was a cellular automaton implementation. The git repo is hosted on github <a href="https://github.com/IosiaLectus/CellularAutomata">here</a>. </p>
-      <!--<img src="/assets/img/josiahcouch.com.jpeg" alt="josiahcouch.com" style="width:100%">-->
-    </div>
+  <!-- 1st Project Row-->
+  <div class="w3-row w3-center" id="projects">
 
-    <div class="w3-half">
-      <h3> <a href='https://josiahcouch.com/playingwithjavascript'>Playing with Javascript<a></h3>
-      <p> Mostly just me fooling around.</p>
-      <!--<img src="/assets/img/josiahcouch.com.jpeg" alt="josiahcouch.com" style="width:100%">-->
-    </div>
+      <div class="w3-third w3-center w3-padding-16">
+        <button class="w3-card w3-center w3-hover-shadow w3-jumbo w3-blue-grey" style="max-width:90%;margin-top:50px" onclick="unhide_portfolio('portfolio_content_kaggle')">Kaggle Competitions</button>
+      </div>
+
+      <div class="w3-third w3-center w3-padding-16">
+        <button class="w3-card w3-center w3-hover-shadow w3-jumbo w3-blue-grey" style="max-width:90%;margin-top:50px" onclick="unhide_portfolio('portfolio_content_pygame')">Cellular Automaton</button>
+      </div>
+
+      <div class="w3-third w3-center w3-padding-16">
+        <button class="w3-card w3-center w3-hover-shadow w3-jumbo w3-blue-grey" style="max-width:90%;margin-top:50px" onclick="unhide_portfolio('portfolio_content_web')">Websites and Javascript</button>
+      </div>
 
   </div>
 
-  <!-- Second Project Row-->
-  <div class="w3-row-padding w3-padding-16 w3-center">
-    <h2 class="w3-center"> Data Science and Machine Learning </h2>
+  <!--<div class="w3-row-padding w3-padding-16" id="portfolio_text"></div>-->
 
-    <p> Projects specifically related to data science and machine learning.</p>
-
-    <div class=" w3-center">
-      <h3>Kaggle Submissions</h3>
-      <p> I have attempted a couple of the competitions at <a href="https://www.kaggle.com/">Kaggle</a>. In particular, a Jupyter notebook for the Titanic Challenge can be found <a href="https://github.com/IosiaLectus/Titanic-on-Kaggle/blob/master/Titanic.ipynb">here</a>. </p>
-      <!--<img src="/assets/img/josiahcouch.com.jpeg" alt="josiahcouch.com" style="width:100%">-->
-    </div>
-
-  </div>
-
-  <!-- Third  Project Row-->
-  <div class="w3-row-padding w3-padding-16 w3-center">
-    <h2 class="w3-center"> One The Web </h2>
-
-    <p> Below are links to some websites I've helped make, including the one you are viewing and my weding website. All have been put together using Jekyll to combine a mixture of markdown and html. Styling is has been done with <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a>, and the <a href="https://www.w3schools.com/w3css/w3css_templates.asp">templates</a> at w3schools.com are used extensively. </p>
-
-    <div class="w3-half">
-      <h3><a href="https://josiahcouch.com">josiahcouch.com</a></h3>
-      <p>This is my personal website, the one you are currently enjoying.</p>
-      <img src="/assets/img/josiahcouch.com.jpeg" alt="josiahcouch.com" style="width:100%">
-    </div>
-
-    <div class="w3-half">
-      <h3> <a href='https://kimgetsacouch.com'>kimgetsacouch.com<a></h3>
-      <p>This is the website I made with Kimberly Carmona for our wedding.</p>
-      <img src="/assets/img/shesaidyes.jpg" alt="kimgetsacouch.com" style="width:100%">
-    </div>
-
-  </div>
-
-</div>
-
-<!-- Code Samples -->
-<!--<div class="w3-container w3-padding-32" id="code_samples">
-  <h2 class="w3-center"> Stuff I Did </h2>
-  <div class="w3-row">
+  <div class="w3-container w3-padding-32 w3-hide" id="portfolio_content_kaggle">
     {% capture my_include %}
-      {% include coding_samples.md %}
+      {% include portfolio_kaggle.md %}
     {% endcapture %}
     {{ my_include | markdownify }}
   </div>
-</div>-->
+
+  <div class="w3-container w3-padding-32 w3-hide" id="portfolio_content_pygame">
+    {% capture my_include %}
+      {% include portfolio_pygame.md %}
+    {% endcapture %}
+    {{ my_include | markdownify }}
+  </div>
+
+  <div class="w3-container w3-padding-32 w3-hide" id="portfolio_content_web">
+    {% capture my_include %}
+      {% include portfolio_web.md %}
+    {% endcapture %}
+    {{ my_include | markdownify }}
+  </div>
+
+</div>
