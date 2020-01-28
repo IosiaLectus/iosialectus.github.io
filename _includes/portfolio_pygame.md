@@ -1,2 +1,2 @@
 
-After coming accross [Al Swiegart's python books](https://inventwithpython.com/), I decided to play around a bit with Pygame. The result was a cellular automaton implementation. The git repo is hosted on github [here](https://github.com/IosiaLectus/CellularAutomata).
+After coming accross [Al Swiegart's python books](https://inventwithpython.com/), I decided to play around a bit with Pygame. The result was a cellular automaton implementation. The source code is hosted on GitHub [here](https://github.com/IosiaLectus/CellularAutomata).
