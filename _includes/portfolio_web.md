@@ -9,4 +9,4 @@ This is a website made with Kimberly Carmona for our wedding. In construction is
 
 ## JavaScript
 
-I've spent some time playing around with JavaScript. The result, such as it is, can be viewed [here](josiahcouch.com/playingwithjavascript). The source can be seen on [GitHub](https://github.com/IosiaLectus/playingwithjavascript).
+I've spent some time playing around with JavaScript. The result, such as it is, can be viewed [here](https://josiahcouch.com/playingwithjavascript). The source can be seen on [GitHub](https://github.com/IosiaLectus/playingwithjavascript).
