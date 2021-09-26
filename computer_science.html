@@ -1,0 +1,21 @@
+---
+layout: w3-layout
+title: Computer Science
+permalink: /cs/
+---
+
+
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-container w3-main w3-content w3-padding" style="max-width:90%;margin-top:100px">
+
+  <!-- Intro -->
+  <div class="w3-container w3-padding-32" id="coding_intro">
+    <h1 class="w3-center"> Programming Portfolio </h1>
+      {% capture my_include %}
+        {% include computer_science_intro.md %}
+      {% endcapture %}
+      {{ my_include | markdownify }}
+  </div>
+
+</div>
