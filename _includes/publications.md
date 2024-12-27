@@ -1,6 +1,26 @@
 
 
 ********************
+
+# Machine Learning
+********************
+
+#### J. Couch, R. Arnaout, R. Arnaout, **Beyond Size and Class Balance: Alpha as a New Dataset Quality Metric for Deep Learning**  [[arxiv:2407.15724](https://arxiv.org/abs/2407.15724)]
+
+> In deep learning, achieving high performance on image classification tasks requires diverse training sets. However, the current best practice---maximizing dataset size and class balance---does not guarantee dataset diversity. We hypothesized that, for a given model architecture, model performance can be improved by maximizing diversity more directly. To test this hypothesis, we introduce a comprehensive framework of diversity measures from ecology that generalizes familiar quantities like Shannon entropy by accounting for similarities among images. (Size and class balance emerge as special cases.) Analyzing thousands of subsets from seven medical datasets showed that the best correlates of performance were not size or class balance but $A$---``big alpha''---a set of generalized entropy measures interpreted as the effective number of image-class pairs in the dataset, after accounting for image similarities. One of these, $A_0$, explained 67\% of the variance in balanced accuracy, vs. 54\% for class balance and just 39\% for size. The best pair of measures was size-plus-$A_1$ (79\%), which outperformed size-plus-class-balance (74\%). Subsets with the largest $A_0$ performed up to 16\% better than those with the largest size (median improvement, 8\%). We propose maximizing $A$ as a way to improve deep learning performance in medical imaging.
+
+#### J. Couch, R. Arora, J. Braun, J. Kaplinsky, E. Hill, A. Li, B. Altschul, R. Arnaout, **Scaling Monte-Carlo-Based Inference on Antibody and TCR Repertoires**  [[arxiv:2312.12525](https://arxiv.org/abs/2312.12525)]
+
+> Previously, it has been shown that maximum-entropy models of immune-repertoire sequence can be used to determine a person's vaccination status. However, this approach has the drawback of requiring a computationally intensive method to compute each model's partition function (Z), the normalization constant required for calculating the probability that the model will generate a given sequence. Specifically, the method required generating approximately 1010 sequences via Monte-Carlo simulations for each model. This is impractical for large numbers of models. Here we propose an alternative method that requires estimating Z this way for only a few models: it then uses these expensive estimates to estimate Z more efficiently for the remaining models. We demonstrate that this new method enables the generation of accurate estimates for 27 models using only three expensive estimates, thereby reducing the computational cost by an order of magnitude. Importantly, this gain in efficiency is achieved with only minimal impact on classification accuracy. Thus, this new method enables larger-scale investigations in computational immunology and represents a useful contribution to energy-based modeling more generally.
+
+# Physics
+********************
+
+#### J. Couch, P. Nguyen, S. Racz, G. Stratis, Y. Zhang, **Possibility of entanglement of purification to be less than half of the reflected entropy**  [[arxiv:2309.02506](https://arxiv.org/abs/2309.02506)]
+
+> In recent work, Akers et al. proved that the entanglement of purification $E_p(A:B)$ is bounded below by half of the $q$-R\'enyi reflected entropy $S_R^{(q)}(A:B)$ for all $q\geq2$, showing that $E_p(A:B) = \frac{1}{2} S_R^{(q)}(A:B)$ for a class of random tensor network states. Naturally, the authors raise the question of whether a similar bound holds at $q = 1$. Our work answers that question in the negative by finding explicit counter-examples, which we arrive at through numerical optimization.
+    Nevertheless, this result does not preclude the possibility that restricted sets of states, such as CFT states with semi-classical gravity duals, could obey the bound in question.
+
 #### J. Couch, Y. Fan, S. Shashi, **Circuit Complexity in Topological Quantum Field Theory**  [[arxiv:2108.13427](https://arxiv.org/abs/2108.13427)]
 
 > Quantum circuit complexity has played a central role in recent advances in holography and many-body physics. Within quantum field theory, it has typically been studied in a Lorentzian (real-time) framework. In a departure from standard treatments, we aim to quantify the complexity of the Euclidean path integral. In this setting, there is no clear separation between space and time, and the notion of unitary evolution on a fixed Hilbert space no longer applies. As a proof of concept, we argue that the pants decomposition provides a natural notion of circuit complexity within the category of 2-dimensional bordisms and use it to formulate the circuit complexity of states and operators in 2-dimensional topological quantum field theory. We comment on analogies between our formalism and others in quantum mechanics, such as tensor networks and second quantization.
