@@ -2,7 +2,7 @@
 
 ********************
 
-# Machine Learning
+### Machine Learning
 ********************
 
 #### J. Couch, R. Arnaout, R. Arnaout, **Beyond Size and Class Balance: Alpha as a New Dataset Quality Metric for Deep Learning**  [[arxiv:2407.15724](https://arxiv.org/abs/2407.15724)]
@@ -13,7 +13,7 @@
 
 > Previously, it has been shown that maximum-entropy models of immune-repertoire sequence can be used to determine a person's vaccination status. However, this approach has the drawback of requiring a computationally intensive method to compute each model's partition function (Z), the normalization constant required for calculating the probability that the model will generate a given sequence. Specifically, the method required generating approximately 1010 sequences via Monte-Carlo simulations for each model. This is impractical for large numbers of models. Here we propose an alternative method that requires estimating Z this way for only a few models: it then uses these expensive estimates to estimate Z more efficiently for the remaining models. We demonstrate that this new method enables the generation of accurate estimates for 27 models using only three expensive estimates, thereby reducing the computational cost by an order of magnitude. Importantly, this gain in efficiency is achieved with only minimal impact on classification accuracy. Thus, this new method enables larger-scale investigations in computational immunology and represents a useful contribution to energy-based modeling more generally.
 
-# Physics
+### Physics
 ********************
 
 #### J. Couch, P. Nguyen, S. Racz, G. Stratis, Y. Zhang, **Possibility of entanglement of purification to be less than half of the reflected entropy**  [[arxiv:2309.02506](https://arxiv.org/abs/2309.02506)]
