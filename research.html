@@ -43,17 +43,16 @@ permalink: /research/
 </div>
 
 <!-- Publications -->
-<div class="w3-container w3-padding-32" id="pubs">
-  <h2 class="w3-center">Publications</h2>
+{% assign categories = "ml,physics" | split: "," %}
+{% assign category_titles = "Machine Learning,Physics" | split: "," %}
 
-  {% assign ml_pubs = site.data.publications | where: "category", "ml" %}
-  {% assign physics_pubs = site.data.publications | where: "category", "physics" %}
-
+{% for category in categories %}
   <hr>
-  <h3>Machine Learning</h3>
+  <h3>{{ category_titles[forloop.index0] }}</h3>
   <hr>
 
-  {% for pub in ml_pubs %}
+  {% assign pubs = site.data.publications | where: "category", category %}
+  {% for pub in pubs %}
   <p>
     {{ pub.authors }},
     ``{{ pub.title }},''
@@ -64,30 +63,7 @@ permalink: /research/
   </p>
   <blockquote>{{ pub.abstract }}</blockquote>
   {% endfor %}
-
-  <hr>
-  <h3>Physics</h3>
-  <hr>
-
-  {% for pub in physics_pubs %}
-  <p>
-    {{ pub.authors }},<
-    ``{{ pub.title }},''
-    {% if pub.journal %}{{ pub.journal }}{% endif %}
-    {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">doi:{{ pub.doi }}</a>{% endif %}
-    {% if pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}">[arXiv:{{ pub.arxiv }}]</a>{% endif %}
-    {% if pub.code %} [<a href="{{ pub.code }}">code</a>]{% endif %}
-  </p>
-  <blockquote>{{ pub.abstract }}</blockquote>
-  {% endfor %}
-
-  <hr>
-  <p>For more information about my publications, see my
-    <a href="https://inspirehep.net/authors/{{ site.inspirehep }}">inSPIRE</a> profile or
-    <a href="https://www.researchgate.net/profile/{{ site.research_gate }}">Research Gate</a>.
-  </p>
-
-</div>
+{% endfor %}
 
 <!-- Second Parallax Image -->
 <div class="bgimg-2 w3-display-container">
