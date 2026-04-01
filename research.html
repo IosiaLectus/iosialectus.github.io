@@ -54,13 +54,13 @@ permalink: /research/
   <hr>
 
   {% for pub in ml_pubs %}
-  <h4>{{ pub.authors }}, <strong>{{ pub.title }}</strong>
-    {% if pub.journal %} {{ pub.journal }}{% endif %}
-  </h4>
   <p>
-    {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">[doi:{{ pub.doi }}]</a> {% endif %}
-    {% if pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}">[arxiv:{{ pub.arxiv }}]</a> {% endif %}
-    {% if pub.code %}<a href="{{ pub.code }}">[code]</a>{% endif %}
+    {{ pub.authors }},<br>
+    ``{{ pub.title }},''<br>
+    {% if pub.journal %}{{ pub.journal }}<br>{% endif %}
+    {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">doi:{{ pub.doi }}</a><br>{% endif %}
+    {% if pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}">[arXiv:{{ pub.arxiv }}]</a>{% endif %}
+    {% if pub.code %} [<a href="{{ pub.code }}">code</a>]{% endif %}
   </p>
   <blockquote>{{ pub.abstract }}</blockquote>
   {% endfor %}
@@ -70,13 +70,13 @@ permalink: /research/
   <hr>
 
   {% for pub in physics_pubs %}
-  <h4>{{ pub.authors }}, <strong>{{ pub.title }}</strong>
-    {% if pub.journal %} {{ pub.journal }}{% endif %}
-  </h4>
   <p>
-    {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">[doi:{{ pub.doi }}]</a> {% endif %}
-    {% if pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}">[arxiv:{{ pub.arxiv }}]</a> {% endif %}
-    {% if pub.code %}<a href="{{ pub.code }}">[code]</a>{% endif %}
+    {{ pub.authors }},<br>
+    ``{{ pub.title }},''<br>
+    {% if pub.journal %}{{ pub.journal }}<br>{% endif %}
+    {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">doi:{{ pub.doi }}</a><br>{% endif %}
+    {% if pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}">[arXiv:{{ pub.arxiv }}]</a>{% endif %}
+    {% if pub.code %} [<a href="{{ pub.code }}">code</a>]{% endif %}
   </p>
   <blockquote>{{ pub.abstract }}</blockquote>
   {% endfor %}
