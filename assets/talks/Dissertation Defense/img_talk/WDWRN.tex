@@ -1,0 +1,79 @@
+\documentclass[tikz, border=1pt]{standalone}
+\pdfoutput=1 % if your are submitting a pdflatex (i.e. if you have
+             % images in pdf, png or jpg format)
+
+\usepackage{graphicx}
+
+% Use the tikz package
+\usepackage{tikz}
+\usetikzlibrary{decorations}
+\usetikzlibrary{snakes}
+
+
+\begin{document}
+
+        \begin{tikzpicture}[scale=4]
+        
+        % Shade bulk regions
+        \fill[black!10!white] (4,2)--(1.75,4.25)--(.25,2.75)--(2.5,.5)--(4,2);
+        \fill[green!75!white] (0.25,2.75)--(0,3)--(1.5,4.5)--(1.75,4.25)--(0.25,2.75);
+        \fill[blue!50!white] (0.25,2.75)--(0,2.5)--(2.25,0.25)--(2.5,0.5)--(0.25,2.75);
+        \fill[red!50!white] (0.25,2.75)--(0,3)--(0.5,3.5)--(0.75,3.25)--(0.25,2.75);
+        \fill[red!50!white] (0.25,2.75)--(0,2.5)--(1.25,1.25)--(1.5,1.5)--(0.25,2.75);
+        
+        % WdW boundaries
+        \draw[dashed] (0,3)--(1.5,4.5);
+        \draw[dashed] (0,2.5)--(1.75,4.25); 
+        \draw[dashed] (0,3)--(2.5,.5); 
+        \draw[dashed] (0,2.5)--(2.25,.25);
+        \draw[dashed] (2.25,.25)--(4,2);
+        \draw[dashed] (4,2)--(1.5,4.5);
+        
+        % singularities
+        \draw[snake] (4,4)--(4,8);
+        \draw[snake] (0,4)--(0,8);
+        
+        % AdS boundaries
+        \draw (4,0) --(4,4);
+        \draw (0,4)--(0,0);
+        
+        % Outer horizons
+        \draw (0,0) --(4,4);
+        \draw (0,4)--(4,0);
+        
+        % Outer horizons
+        \draw (0,4) --(4,8);
+        \draw (0,8)--(4,4);
+        
+        % Contributing Corner terms
+        %\fill(.25,2.75) circle[radius=2pt];
+        \fill(2.5,.5) circle[radius=2pt];
+        \fill(2.25,.25) circle[radius=2pt];
+        \fill(1.5,4.5) circle[radius=2pt];
+        \fill(1.75,4.25) circle[radius=2pt];
+        
+        % Geometry labels
+        \draw (0,1) node[left][scale=2]{$r=\infty$};
+        \draw (4,1) node[right][scale=2]{$r=\infty$};
+        \draw (0,6) node[left][scale=2]{$r=0$};
+        \draw (4,6) node[right][scale=2]{$r=0$};
+        \draw (1.1,7) node[rotate=-45][scale=2]{$r = r_-$};
+        \draw (1,5.1) node[rotate=45][scale=2]{$r=r_-$};
+        \draw (3,3.1) node[rotate=45][scale=2]{$r=r_+$};
+        \draw (3.1,1) node[rotate=-45][scale=2]{$r = r_+$};
+        
+        % WDW labels
+        \draw (0.45,3.2) node{$\mathcal{V}_1$};
+        \draw (0.45,2.3) node{$\mathcal{V}_2$};
+        \draw (2.4,.25) node{$B_2$};
+        \draw (2.65,.5) node{$B_1$};
+        \draw (1.65,4.5) node{$B_4$};
+        \draw (1.9,4.25) node{$B_3$};
+        \draw (0,2.5) node[left]{$(u_L,v_L)$};
+        \draw (0,3) node[left]{$(u_L+\delta t,v_L + \delta t)$};
+        \draw (4,2) node[right]{$(u_R,v_R)$};
+        \draw (.75,1.6) node[right, rotate=-45]{$(v=v_L)$};
+        \draw (.85,3.2) node[right, rotate=45]{$(u=u_L)$};
+        \end{tikzpicture}
+
+\end{document}

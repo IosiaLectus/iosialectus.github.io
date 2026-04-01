@@ -2,6 +2,12 @@
 **************************
 Here is a list of my talks and presentations:
 
+* ["Diversity with Similarity as a Measure of Training Set Quality,"](/assets/talks/Alpha/slides_2024aug13.pdf) IAIFI Workshop, MIT, Cambridge, MA (Aug 2024)
+
+* ["Beyond Class Balance,"](/assets/talks/Alpha/slides_2024march27.pdf) NIH ODSS AI Supplement Program Virtual PI Meeting, virtual (March 2024)
+
+* ["PhD Dissertation Defense: Studies in Holographic Complexity,"](/assets/talks/Dissertation/DefenseTalk.pdf) University of Texas at Austin, virtual (April 2021)
+
 * ["The Speed of Quantum Information Spreading in Chaotic Systems,"](/assets/talks/Mexicuerdas2019/mexicuerdas2019.pdf) Mexicuerdas 2019, Instituto de Ciencias Nucleares, UNAM, Mexico City, Mexico (Dec 2019)
 
 * ["Holographic Complexity and Volume,"](/assets/talks/SWSM2019/SWSM19.pdf) Southwest Strings Meeting 2019, Arizona State University, Tempe, AZ (Feb 2019)
