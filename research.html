@@ -44,11 +44,49 @@ permalink: /research/
 
 <!-- Publications -->
 <div class="w3-container w3-padding-32" id="pubs">
-  <h2 class="w3-center"> Publications </h2>
-  {% capture my_include %}
-    {% include publications.md %}
-  {% endcapture %}
-  {{ my_include | markdownify }}
+  <h2 class="w3-center">Publications</h2>
+
+  {% assign ml_pubs = site.data.publications | where: "category", "ml" %}
+  {% assign physics_pubs = site.data.publications | where: "category", "physics" %}
+
+  <hr>
+  <h3>Machine Learning</h3>
+  <hr>
+
+  {% for pub in ml_pubs %}
+  <h4>{{ pub.authors }}, <strong>{{ pub.title }}</strong>
+    {% if pub.journal %} {{ pub.journal }}{% endif %}
+  </h4>
+  <p>
+    {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">[doi:{{ pub.doi }}]</a> {% endif %}
+    {% if pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}">[arxiv:{{ pub.arxiv }}]</a> {% endif %}
+    {% if pub.code %}<a href="{{ pub.code }}">[code]</a>{% endif %}
+  </p>
+  <blockquote>{{ pub.abstract }}</blockquote>
+  {% endfor %}
+
+  <hr>
+  <h3>Physics</h3>
+  <hr>
+
+  {% for pub in physics_pubs %}
+  <h4>{{ pub.authors }}, <strong>{{ pub.title }}</strong>
+    {% if pub.journal %} {{ pub.journal }}{% endif %}
+  </h4>
+  <p>
+    {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">[doi:{{ pub.doi }}]</a> {% endif %}
+    {% if pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}">[arxiv:{{ pub.arxiv }}]</a> {% endif %}
+    {% if pub.code %}<a href="{{ pub.code }}">[code]</a>{% endif %}
+  </p>
+  <blockquote>{{ pub.abstract }}</blockquote>
+  {% endfor %}
+
+  <hr>
+  <p>For more information about my publications, see my
+    <a href="https://inspirehep.net/authors/{{ site.inspirehep }}">inSPIRE</a> profile or
+    <a href="https://www.researchgate.net/profile/{{ site.research_gate }}">Research Gate</a>.
+  </p>
+
 </div>
 
 <!-- Second Parallax Image -->
