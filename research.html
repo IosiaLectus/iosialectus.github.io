@@ -55,10 +55,10 @@ permalink: /research/
 
   {% for pub in ml_pubs %}
   <p>
-    {{ pub.authors }},<br>
-    ``{{ pub.title }},''<br>
-    {% if pub.journal %}{{ pub.journal }}<br>{% endif %}
-    {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">doi:{{ pub.doi }}</a><br>{% endif %}
+    {{ pub.authors }},
+    ``{{ pub.title }},''
+    {% if pub.journal %}{{ pub.journal }}{% endif %}
+    {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">doi:{{ pub.doi }}</a>{% endif %}
     {% if pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}">[arXiv:{{ pub.arxiv }}]</a>{% endif %}
     {% if pub.code %} [<a href="{{ pub.code }}">code</a>]{% endif %}
   </p>
@@ -71,10 +71,10 @@ permalink: /research/
 
   {% for pub in physics_pubs %}
   <p>
-    {{ pub.authors }},<br>
-    ``{{ pub.title }},''<br>
-    {% if pub.journal %}{{ pub.journal }}<br>{% endif %}
-    {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">doi:{{ pub.doi }}</a><br>{% endif %}
+    {{ pub.authors }},<
+    ``{{ pub.title }},''
+    {% if pub.journal %}{{ pub.journal }}{% endif %}
+    {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">doi:{{ pub.doi }}</a>{% endif %}
     {% if pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}">[arXiv:{{ pub.arxiv }}]</a>{% endif %}
     {% if pub.code %} [<a href="{{ pub.code }}">code</a>]{% endif %}
   </p>
