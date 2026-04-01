@@ -42,11 +42,11 @@ permalink: /research/
   </div>-->
 </div>
 
-<!-- Research Statement -->
-<div class="w3-container w3-padding-32" id="research_statement">
-  <h1 class="w3-center"> My Research </h1>
+<!-- Publications -->
+<div class="w3-container w3-padding-32" id="pubs">
+  <h2 class="w3-center"> Publications </h2>
   {% capture my_include %}
-    {% include research_statement.md %}
+    {% include publications.md %}
   {% endcapture %}
   {{ my_include | markdownify }}
 </div>
@@ -74,11 +74,11 @@ permalink: /research/
   </div>-->
 </div>
 
-<!-- Publications -->
-<div class="w3-container w3-padding-32" id="pubs">
-  <h2 class="w3-center"> Publications </h2>
+<!-- Research Statement -->
+<div class="w3-container w3-padding-32" id="research_statement">
+  <h1 class="w3-center"> My Research </h1>
   {% capture my_include %}
-    {% include publications.md %}
+    {% include research_statement.md %}
   {% endcapture %}
   {{ my_include | markdownify }}
 </div>
