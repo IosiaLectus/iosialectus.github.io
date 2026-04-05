@@ -9,10 +9,10 @@
   venue: "NIH ODSS AI Supplement Program Virtual PI Meeting"
   date: "Mar 2024"
 
--title: "Pants Decomposition as Circuit Complexity in 2D (T)QFT"
- venue: "QUAST seminar at OIST"
- location: virtual
- date: "Mar 2022"
+- title: "Pants Decomposition as Circuit Complexity in 2D (T)QFT"
+  venue: "QUAST seminar at OIST"
+  location: virtual
+  date: "Mar 2022"
 
 - title: "PhD Dissertation Defense: Studies in Holographic Complexity"
   slides: /assets/talks/Dissertation/DefenseTalk.pdf
