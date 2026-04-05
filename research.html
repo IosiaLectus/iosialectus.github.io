@@ -65,7 +65,7 @@ permalink: /research/
 
   {% for talk in talks %}
     <p>
-      {% if talk.slides %}<a href="{ talk.slides }}">``{{ talk.title }},''</a>{% endif %}
+      {% if talk.slides %}<a href="{{ talk.slides }}">``{{ talk.title }},''</a>{% endif %}
       {% unless talk.slides %}``{{ talk.title }},''{% endunless %}
       {% if talk.venue %} {{ talk.venue }} {% endif %}
       {% if talk.location %} {{ talk.location }} {% endif %}
