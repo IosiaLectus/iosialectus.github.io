@@ -67,24 +67,6 @@ permalink: /research/
 
 </style>
 
-<script>
-/* Collapsable button, from https://www.w3schools.com/howto/howto_js_collapsible.asp  */
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    }
-  });
-}
-</script>
-
 <!-- First Parallax Image -->
 <div class="bgimg-1 w3-display-container">
   <!--<div class="w3-display-middle">
@@ -156,10 +138,29 @@ for (i = 0; i < coll.length; i++) {
     {% if pub.code %} [<a href="{{ pub.code }}">code</a>]{% endif %}
   </p>
   {% if pub.abstract %}
-    <button type="button" class="collapsible">Abstract</button>
-    <div class="abstract">
-      <blockquote>{{ pub.abstract }}</blockquote>
-    </div>
+  <button type="button" class="collapsible">Abstract</button>
+  <div class="abstract">
+    <blockquote>{{ pub.abstract }}</blockquote>
+  </div>
   {% endif %}
   {% endfor %}
 {% endfor %}
+
+
+<script>
+/* Collapsable button, from https://www.w3schools.com/howto/howto_js_collapsible.asp  */
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
