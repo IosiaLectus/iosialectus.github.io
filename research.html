@@ -57,6 +57,10 @@ permalink: /research/
     {{ pub.authors }},
     ``{{ pub.title }},''
     {% if pub.journal %}{{ pub.journal }}{% endif %}
+    {% if pub.volume %}<b>{{ pub.volume }}</b>{% endif %}
+    {% if pub.number %}no. {{ pub.number }}{% endif %}
+    {% if pub.pages %}{{ pub.pages }}{% endif %}
+    {% if pub.year %}({{ pub.year }}){% endif %}
     {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">doi:{{ pub.doi }}</a>{% endif %}
     {% if pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}">[arXiv:{{ pub.arxiv }}]</a>{% endif %}
     {% if pub.code %} [<a href="{{ pub.code }}">code</a>]{% endif %}

@@ -95,7 +95,11 @@
   authors: "J. Couch, P. Nguyen, S. Racz, G. Stratis, Y. Zhang"
   arxiv: "2309.02506"
   doi: "10.1103/PhysRevA.109.022426"
-  journal: "Phys. Rev. A 109, no.2, 022426 (2024)"
+  journal: "Phys. Rev. A"
+  volume: 109
+  number: 2
+  pages: 022426
+  year: 2024
   code: "https://github.com/IosiaLectus/EofP_minus_half_RE_opt"
   category: physics
   abstract: >
@@ -112,7 +116,11 @@
   authors: "J. Couch, Y. Fan, S. Shashi"
   arxiv: "2108.13427"
   doi: "10.1002/prop.202200102"
-  journal: "Fortsch. Phys. 70, no.9-10, 2200102 (2022)"
+  journal: "Fortsch. Phys."
+  volume: 70
+  number: "9-10"
+  pages: 2200102
+  year: 2022
   category: physics
   abstract: >
     Quantum circuit complexity has played a central role in recent advances in holography and
@@ -131,7 +139,10 @@
   authors: "E. Cáceres, S. Chapman, J. Couch, J. Hernandez, R. C. Myers, S. Ruan"
   arxiv: "1909.10557"
   doi: "10.1007/JHEP03(2020)012"
-  journal: "JHEP 3, 012 (2020)"
+  journal: "JHEP"
+  volume: 03
+  pages: 012
+  year: 2020
   category: physics
   abstract: >
     We study the complexity of Gaussian mixed states in a free scalar field theory using the
@@ -152,7 +163,11 @@
   authors: "J. Couch, S. Eccles, P.H. Nguyen, B. Swingle, S. Xu"
   arxiv: "1908.06993"
   doi: "10.1103/PhysRevB.102.045114"
-  journal: "Phys. Rev. B 102, no.4, 045114 (2020)"
+  journal: "Phys. Rev. B"
+  volume: 102
+  number: 4
+  pages: 045114
+  year: 2020
   category: physics
   abstract: >
     We present a general theory of quantum information propagation in chaotic quantum
@@ -174,7 +189,11 @@
   authors: "E. Cáceres, J. Couch, S. Eccles, W. Fischler"
   arxiv: "1811.10650"
   doi: "10.1103/PhysRevD.99.086016"
-  journal: "Phys. Rev. D 99, no.8, 086016 (2019)"
+  journal: "Phys. Rev. D"
+  volume: 99
+  number: 8
+  pages: 086016
+  year: 2019
   category: physics
   abstract: >
     We study holographic subregion complexity, and its possible connection to purification
@@ -197,7 +216,10 @@
   authors: "J. Couch, S. Eccles, T. Jacobson, P. Nguyen"
   arxiv: "1807.02186"
   doi: "10.1007/JHEP11(2018)044"
-  journal: "JHEP 1811, 044 (2018)"
+  journal: "JHEP"
+  volume: 1811
+  pages: 044
+  year: 2018
   category: physics
   abstract: >
     The previously proposed "Complexity=Volume" or CV-duality is probed and developed in
@@ -219,7 +241,10 @@
   authors: "J. Couch, S. Eccles, W. Fischler, M. L. Xiao"
   arxiv: "1710.07833"
   doi: "10.1007/JHEP03(2018)108"
-  journal: "JHEP 1803, 108 (2018)"
+  journal: "JHEP"
+  volume: 1803
+  pages: 108
+  year: 2018
   category: physics
   abstract: >
     We study the holographic complexity of noncommutative field theories. The four-dimensional
@@ -239,7 +264,10 @@
   authors: "J. Couch, W. Fischler, P. H. Nguyen"
   arxiv: "1610.02038"
   doi: "10.1007/JHEP03(2017)119"
-  journal: "JHEP 1703, 119 (2017)"
+  journal: "JHEP"
+  volume: 1703
+  pages: 119
+  year: 2017
   category: physics
   abstract: >
     In this paper, we study the physical significance of the thermodynamic volumes of AdS
