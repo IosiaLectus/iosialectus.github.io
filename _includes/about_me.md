@@ -1,6 +1,10 @@
 
 ## About Me  
 
-I am a postdoctoral research fellow in the [Arnaout Lab](https://arnaoutlab.org/) at Beth Israel Deaconess Medical Center, where I work on machine learning, especially as applied in a medical context.
+I am a postdoctoral research fellow in the [Arnaout Lab](https://arnaoutlab.org/) at Beth Israel Deaconess Medical Center, where I work on machine learning, particularly in a medical context. The main thrust of my work here has been applying the notion of ‘diversity with similarity’ to machine learning datasets. Diversity with similarity is closely related to the ordinary (Shannon/Rényi) entropy from physics and information theory, but originated in ecology and accounts for similarities between distinct species/types. The main research program I am involved in at the Arnaout Lab aims to turn this into a meaningful measure of dataset quality, especially for medical imaging datasets.
 
-In May 2021 I earned my Ph.D. in physics from the University of Texas at Austin, where I worked with the  [Weinberg Theory Group](https://zippy.ph.utexas.edu/) on the AdS/CFT correspondence and its intersection with quantum information.
+I came to the Arnaout Lab from Boston College in August 2022, where I had a position in the Computer Science department since January 2021 (transitioning to a postdoctoral research fellow after graduating). I worked under [Prof. Jose Bento](https://www.bc.edu/bc-web/schools/morrissey/departments/computer-science/people/faculty-directory/jose-bento.html), applying my knowledge of information theory, mathematics, and statistics to problems in random graphs.
+
+I earned my Ph.D. in physics in May 2021 from the University of Texas at Austin, where I worked under [Prof. Willy Fischler](https://physics.utexas.edu/directory/willy-fischler) in the [Weinberg Theory Group](https://zippy.ph.utexas.edu/). During my time there, I co-authored six papers in the field of AdS/CFT, mostly on ‘holographic complexity’, an idea that relates certain aspects of spacetime geometry to the complexity of a quantum state in a dual theory (in the AdS/CFT context). However, I maintained broad interests largely focused on the roles of information and complexity in quantum gravity and quantum field theory.
+
+From theoretical physics, to theoretical computer science, to machine learning for medicine, my work has centered on the role of information and complexity theory in describing complex systems.
