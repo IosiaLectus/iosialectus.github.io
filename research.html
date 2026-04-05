@@ -42,6 +42,46 @@ permalink: /research/
   </div>-->
 </div>
 
+<!-- Research Statement -->
+<div class="w3-container w3-padding-32" id="research_statement">
+  <h1 class="w3-center"> My Research </h1>
+  {% capture my_include %}
+    {% include research_statement.md %}
+  {% endcapture %}
+  {{ my_include | markdownify }}
+</div>
+
+<!-- Second Parallax Image -->
+<div class="bgimg-2 w3-display-container">
+  <!--<div class="w3-display-middle">
+    <span class="w3-xxlarge w3-wide">Talks</span>
+  </div>-->
+</div>
+
+<!-- Talks -->
+<div class="w3-container w3-padding-32" id="talks">
+  <h2 class="w3-center"> Talks </h2>
+  {% assign talks = site.data.talks }
+
+  {% for talk in talks %}
+    <p>
+      {% if talk.slides %}<a href="{ talk.slides }}">``{{ talk.title }},''</a>{% endif %}
+      {% unless talk.slides %}``{{ talk.title }},''{% endunless %}
+      {% if talk.venue %} {{ talk.venue }} {% endif %}
+      {% if talk.location %} {{ talk.location }} {% endif %}
+      {% if talk.date%} ({{ talk.date }}) {% endif %}
+    </p>
+    {% endfor %}
+
+</div>
+
+<!-- Third Parallax Image -->
+<div class="bgimg-3 w3-display-container">
+  <!--<div class="w3-display-middle">
+    <span class="w3-xxlarge w3-wide">Publications</span>
+  </div>-->
+</div>
+
 <!-- Publications -->
 {% assign categories = "ml,physics" | split: "," %}
 {% assign category_titles = "Machine Learning,Physics" | split: "," %}
@@ -56,47 +96,20 @@ permalink: /research/
   <p>
     {{ pub.authors }},
     ``{{ pub.title }},''
-    {% if pub.journal %}{{ pub.journal }}{% endif %}
-    {% if pub.volume %}<b>{{ pub.volume }}</b>{% endif %}
-    {% if pub.number %}no. {{ pub.number }}{% endif %}
-    {% if pub.pages %}{{ pub.pages }}{% endif %}
-    {% if pub.year %}({{ pub.year }}){% endif %}
+    {% if pub.journal %} {{ pub.journal }} {% endif %}
+    {% if pub.volume %} <b>{{ pub.volume }}</b> {% endif %}
+    {% if pub.number %} no. {{ pub.number }} {% endif %}
+    {% if pub.pages %} {{ pub.pages }} {% endif %}
+    {% if pub.year %} ({{ pub.year }}) {% endif %}
     {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">doi:{{ pub.doi }}</a>{% endif %}
     {% if pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}">[arXiv:{{ pub.arxiv }}]</a>{% endif %}
     {% if pub.code %} [<a href="{{ pub.code }}">code</a>]{% endif %}
   </p>
-  <blockquote>{{ pub.abstract }}</blockquote>
+  {% if pub.abstract %}
+    <button type="button" class="collapsible">Abstract</button>
+    <div class="abstract">
+      <blockquote>{{ pub.abstract }}</blockquote>
+    </div>
+  {% endif %}
   {% endfor %}
 {% endfor %}
-
-<!-- Second Parallax Image -->
-<div class="bgimg-2 w3-display-container">
-  <!--<div class="w3-display-middle">
-    <span class="w3-xxlarge w3-wide">Talks</span>
-  </div>-->
-</div>
-
-<!-- Talks -->
-<div class="w3-container w3-padding-32" id="talks">
-  <h2 class="w3-center"> Talks </h2>
-  {% capture my_include %}
-    {% include talks.md %}
-  {% endcapture %}
-  {{ my_include | markdownify }}
-</div>
-
-<!-- Third Parallax Image -->
-<div class="bgimg-3 w3-display-container">
-  <!--<div class="w3-display-middle">
-    <span class="w3-xxlarge w3-wide">Publications</span>
-  </div>-->
-</div>
-
-<!-- Research Statement -->
-<div class="w3-container w3-padding-32" id="research_statement">
-  <h1 class="w3-center"> My Research </h1>
-  {% capture my_include %}
-    {% include research_statement.md %}
-  {% endcapture %}
-  {{ my_include | markdownify }}
-</div>

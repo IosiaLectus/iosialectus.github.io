@@ -1,0 +1,56 @@
+- title: "Diversity with Similarity as a Measure of Training Set Quality"
+  slides: /assets/talks/Alpha/slides_2024aug13.pdf
+  venue: "IAIFI Workshop"
+  location: "MIT, Cambridge, MA"
+  date: "Aug 2024"
+
+- title: "Beyond Class Balance,"
+  slides: /assets/talks/Alpha/slides_2024march27.pdf
+  venue: "NIH ODSS AI Supplement Program Virtual PI Meeting"
+  date: "Mar 2024"
+
+-title: "Pants Decomposition as Circuit Complexity in 2D (T)QFT"
+ venue: "QUAST seminar at OIST"
+ location: virtual
+ date: "Mar 2022"
+
+- title: "PhD Dissertation Defense: Studies in Holographic Complexity"
+  slides: /assets/talks/Dissertation/DefenseTalk.pdf
+  venue: "University of Texas at Austin"
+  location: "virtual"
+  date: "April 2021"
+
+- title: "The Speed of Quantum Information Spreading in Chaotic Systems"
+  slides: /assets/talks/Mexicuerdas2019/mexicuerdas2019.pdf
+  venue: "Mexicuerdas 2019"
+  location: "Instituto de Ciencias Nucleares, UNAM, Mexico City, Mexico"
+  date: "Dec 2019"
+
+- title: "Holographic Complexity and Volume"
+  slides: /assets/talks/SWSM2019/SWSM19.pdf
+  venue: "Southwest Strings Meeting 2019"
+  location: "Arizona State University, Tempe, AZ"
+  date: "Feb 2019"
+
+- title: "Purification complexity in free scalar field theory"
+  slides: /assets/talks/APS2018/APSTalkOct2018.pdf
+  venue: "Joint Meeting of the Texas Section of the APS, Texas Section of the AAPT, and Zone 13 of the SPS"
+  location: "U. of Houston, Houston, TX"
+  date: "Oct 2018"
+
+- title: "Holographic Complexity"
+  slides: /assets/talks/OSU2018/OSU_Talk_2018.pdf
+  location: "Oklahoma State University, Stillwater OK"
+  date: "Apr 2018"
+
+- title: "Holographic Complexity and Non-Commutative gauge Theory"
+  slides: /assets/talks/SWHolography2018/NCG_March2018.pdf
+  venue: "Southwest Holography Meeting 2018"
+  location: "University of Texas at Austin, Austin, TX"
+  date: "Mar 2018"
+
+- title: "Holographic Complexity and Non-Commutative gauge Theory"
+  slides: /assets/talks/APS2017/APSTalkOct2017.pdf
+  venue: "Joint Meeting of the Texas Section of the APS, Texas Section of the AAPT, and Zone 13 of the SPS"
+  location: "University of Texas at Dallas, Richardson, TX"
+  date: "Oct 2017"
