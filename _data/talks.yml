@@ -10,6 +10,7 @@
   date: "Mar 2024"
 
 - title: "Pants Decomposition as Circuit Complexity in 2D (T)QFT"
+  slides: /assets/talks/OIST_talk/talk_notes.pdf
   venue: "QUAST seminar at OIST"
   location: virtual
   date: "Mar 2022"
