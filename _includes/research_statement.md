@@ -1,4 +1,4 @@
-# Research
+
 
 Currently, my research is focused on machine learning in a medical context. The biggest thrust of this work has been the possibility of using a similarity-sensitive notion of entropy as a measure of dataset quality.
 
