@@ -15,6 +15,13 @@ permalink: /research/
   background-size: cover;
 }
 
+* Turn off parallax on mobile */
+@media only screen and (max-device-width: 1366px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
 /* Third image (Contact) */
 .bgimg-1 {
   background-image: url("/assets/img/zion.webp");
