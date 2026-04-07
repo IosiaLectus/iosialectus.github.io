@@ -260,6 +260,7 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.6.0)
     webrick (1.9.2)
+    zeitwerk (2.2.2)
 
 PLATFORMS
   ruby
