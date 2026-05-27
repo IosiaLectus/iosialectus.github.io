@@ -1,6 +1,13 @@
-- title: "Which Similarity-Sensitive Entropy (Sentropy)?"
+- title: "Comparing frameworks for similarity-aware generalized entropy (sentropy)"
   authors: "P. Nguyen, J. Couch, R. Bansal, A. Morgan, C. Tam, M. Li, R. Arnaout, R. Arnaout"
   arxiv: "2511.03849"
+  doi: 10.1103/n2s3-2g85
+  journal: Phys. Rev. E
+  volume: 113
+  number: 5
+  pages: 055305
+  year: 2026
+  month: May
   category: ml
   abstract: >
     Shannon entropy is not the only entropy that is relevant to machine-learning datasets,
