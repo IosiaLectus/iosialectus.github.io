@@ -1,21 +1,29 @@
-_site
-.sass-cache
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
+vendor/
+.bundle/
 
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+*.swp
+
+# LaTeX
 *.aux
 *.log
 *.out
 *.synctex.gz
 *.toc
-
 *.sty
 *.nav
 *.snm
 *.blg
-
-*.sty
 *.bst
-
 *.fls
 *.lb
 *.fdb_latexmk
