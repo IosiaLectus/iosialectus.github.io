@@ -19,7 +19,7 @@ title: Josiah Couch
 description: >- # this means to ignore newlines until "baseurl:"
   Theoretical physicist working on problems related to machine learning.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "josiahcouch.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://josiahcouch.com" # the base hostname & protocol for your site, e.g. http://example.com
 research_gate: Josiah_Couch2
 github:  iosialectus
 linkedin: josiah-couch
@@ -32,6 +32,7 @@ markdown: kramdown
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
