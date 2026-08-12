@@ -20,6 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Theoretical physicist working on problems related to machine learning.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://josiahcouch.com" # the base hostname & protocol for your site, e.g. http://example.com
+logo: /assets/img/josiah_couch_headshot.webp
 research_gate: Josiah_Couch2
 github:  iosialectus
 linkedin: josiah-couch
