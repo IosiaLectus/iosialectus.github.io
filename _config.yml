@@ -17,7 +17,7 @@
 title: Josiah Couch
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Postdoctoral researcher working in ML with a focus on medical applications and a background in theoretical physics (AdS/CFT and quantum information)
+  Theoretical physicist working on problems related to machine learning.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "josiahcouch.com" # the base hostname & protocol for your site, e.g. http://example.com
 research_gate: Josiah_Couch2
