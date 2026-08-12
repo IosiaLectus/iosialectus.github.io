@@ -28,6 +28,16 @@ googlescholar: IHCXIycAAAAJ
 orcid: 0000-0002-7416-5858
 inspirehep: 1491322
 
+author: Josiah Couch
+social:
+  name: Josiah Couch
+  links:
+    - https://www.linkedin.com/in/josiah-couch/
+    - https://github.com/iosialectus
+    - https://orcid.org/0000-0002-7416-5858
+    - https://scholar.google.com/citations?user=IHCXIycAAAAJ
+    - https://inspirehep.net/authors/1491322
+
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-cayman
