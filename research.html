@@ -108,8 +108,8 @@ description: >-
 
   {% for talk in talks %}
     <p>
-      {% if talk.slides %}<a href="{{ talk.slides }}">``{{ talk.title }},''</a>{% endif %}
-      {% unless talk.slides %}``{{ talk.title }},''{% endunless %}
+      {% if talk.slides %}<a href="{{ talk.slides }}">“{{ talk.title }},”</a>{% endif %}
+      {% unless talk.slides %}“{{ talk.title }},”{% endunless %}
       {% if talk.venue %} {{ talk.venue }} {% endif %}
       {% if talk.location %} {{ talk.location }} {% endif %}
       {% if talk.date%} ({{ talk.date }}) {% endif %}
@@ -137,7 +137,7 @@ description: >-
   {% for pub in pubs %}
   <p>
     {{ pub.authors }},
-    ``{{ pub.title }},''
+    “{{ pub.title }},”
     {% if pub.journal %} {{ pub.journal }} {% endif %}
     {% if pub.volume %} <b>{{ pub.volume }}</b> {% endif %}
     {% if pub.number %} no. {{ pub.number }} {% endif %}

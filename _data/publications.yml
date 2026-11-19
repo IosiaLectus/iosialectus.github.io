@@ -5,7 +5,7 @@
   journal: Phys. Rev. E
   volume: 113
   number: 5
-  pages: 055305
+  pages: "055305"
   year: 2026
   month: May
   category: ml
@@ -105,7 +105,7 @@
   journal: "Phys. Rev. A"
   volume: 109
   number: 2
-  pages: 022426
+  pages: "022426"
   year: 2024
   code: "https://github.com/IosiaLectus/EofP_minus_half_RE_opt"
   category: physics
@@ -147,8 +147,8 @@
   arxiv: "1909.10557"
   doi: "10.1007/JHEP03(2020)012"
   journal: "JHEP"
-  volume: 03
-  pages: 012
+  volume: "03"
+  pages: "012"
   year: 2020
   category: physics
   abstract: >
@@ -173,7 +173,7 @@
   journal: "Phys. Rev. B"
   volume: 102
   number: 4
-  pages: 045114
+  pages: "045114"
   year: 2020
   category: physics
   abstract: >
@@ -199,7 +199,7 @@
   journal: "Phys. Rev. D"
   volume: 99
   number: 8
-  pages: 086016
+  pages: "086016"
   year: 2019
   category: physics
   abstract: >
@@ -225,7 +225,7 @@
   doi: "10.1007/JHEP11(2018)044"
   journal: "JHEP"
   volume: 1811
-  pages: 044
+  pages: "044"
   year: 2018
   category: physics
   abstract: >
