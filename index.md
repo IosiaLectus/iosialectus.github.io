@@ -1,6 +1,4 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+# Home page. Content lives in _includes/home_content.html and _includes/about_me.md.
 layout: home
 ---
